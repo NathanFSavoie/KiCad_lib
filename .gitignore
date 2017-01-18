@@ -18,3 +18,9 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Project
+*.kicad_pcb
+*.pro
+*.sch
+
