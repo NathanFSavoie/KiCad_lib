@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Inductance
+D Inductance SYMBOL
+$ENDCMP
+#
+$CMP Inductance_Blinde
+D Inductance Blinde SYMBOL
+$ENDCMP
+#
+$CMP LQM31PN3R3M00L
+D FIXED IND 3.3UH 800MA 240 MOHM
+K Multilayer, Shielded
+F http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0104LQM31P_00.pdf
+$ENDCMP
+#
+$CMP LQM31PN4R7M00L
+D FIXED IND 4.7UH 700MA 300 MOHM
+K Multilayer, Shielded
+F http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0104LQM31P_00.pdf
+$ENDCMP
+#
+#End Doc Library

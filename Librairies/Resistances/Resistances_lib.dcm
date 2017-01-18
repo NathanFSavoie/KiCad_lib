@@ -1,0 +1,140 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 3306F-1-201
+D TRIMMER 200 OHM 0.2W PC PIN
+K Single Turn, Top Adjustment, Through Hole
+F http://www.bourns.com/docs/Product-Datasheets/3306.pdf
+$ENDCMP
+#
+$CMP ERJ-8ENF1541V
+D RES SMD 1.54K OHM 1% 1/4W 1206
+K Automotive AEC-Q200
+F http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/precision-thick-film-chip-resistors/ERJ8ENF1541V
+$ENDCMP
+#
+$CMP ERJ-8ENF3742V
+D RES SMD 37.4K OHM 1% 1/4W 1206
+K Automotive AEC-Q200
+F http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/precision-thick-film-chip-resistors/ERJ8ENF3742V
+$ENDCMP
+#
+$CMP LRC-LR1206LF-01-R040F
+D RES SMD 0.04 OHM 1% 1/2W 1206
+K Current Sense, Moisture Resistant
+F http://www.ttelectronicsresistors.com/datasheets/lr.pdf
+$ENDCMP
+#
+$CMP LRC-LR2512LF-01-R100F
+D RES SMD 0.1 OHM 1% 2W 2512
+K Current Sense, Moisture Resistant
+F http://www.ttelectronicsresistors.com/datasheets/lr.pdf
+$ENDCMP
+#
+$CMP MCR18ERTF1962
+D RES SMD 19.6K OHM 1% 1/4W 1206
+K General Purpose
+F http://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/MCR18ERT_Spec.pdf
+$ENDCMP
+#
+$CMP MCR18ERTF5601
+D RES SMD 5.6K OHM 1% 1/4W 1206
+K General Purpose
+F http://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/MCR18ERT_Spec.pdf
+$ENDCMP
+#
+$CMP MFR-25FBF52-1K
+D RES 1K OHM 1/4W 1% AXIAL
+K Metal Film
+F http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf
+$ENDCMP
+#
+$CMP MFR-25FBF52-49R9
+D RES 49.9 OHM 1/4W 1% AXIAL
+K Metal Film
+F http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf
+$ENDCMP
+#
+$CMP Potentiometre
+D Potentiometre SYMBOL
+$ENDCMP
+#
+$CMP RC0805FR-0734R8L
+D RES SMD 34.8 OHM 1% 1/8W 0805
+K Moisture Resistant
+F http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf
+$ENDCMP
+#
+$CMP RC0805FR-0760R4L
+D RES SMD 60.4 OHM 1% 1/8W 0805
+K Moisture Resistant
+F http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf
+$ENDCMP
+#
+$CMP RC1206FR-0726K7L
+D RES SMD 26.7K OHM 1% 1/4W 1206
+K General Purpose, Moisture Resistant
+F http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf
+$ENDCMP
+#
+$CMP RC1206FR-0737K4L
+D RES SMD 37.4K OHM 1% 1/4W 1206
+K General Purpose, Moisture Resistant
+F http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf
+$ENDCMP
+#
+$CMP RC1206JR-0722KL
+D RES SMD 22K OHM 5% 1/4W 1206
+K General Purpose, Moisture Resistant
+F http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf
+$ENDCMP
+#
+$CMP RMCF1206FT115K
+D RES SMD 115K OHM 1% 1/4W 1206
+K Automotive AEC-Q200
+F https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF1206FT19K6
+D RES SMD 19.6K OHM 1% 1/4W 1206
+K Automotive AEC-Q200
+F https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF1206JT16K0
+D RES SMD 16K OHM 5% 1/4W 1206
+K Automotive AEC-Q200
+F https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF1206JT56K0
+D RES SMD 56K OHM 5% 1/4W 1206
+K Automotive AEC-Q200
+F https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RMCF1206JT68K0
+D RES SMD 68K OHM 5% 1/4W 1206
+K Automotive AEC-Q200
+F https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP RNCP1206FTD3K48
+D RES SMD 3.48K OHM 1% 1/2W 1206
+K General Purpose, Anti-Sulfur
+F https://www.seielect.com/catalog/SEI-RNCP.pdf
+$ENDCMP
+#
+$CMP Resistance
+D Resistance SYMBOL
+$ENDCMP
+#
+$CMP Resistance_Generique
+D Resistance Generique
+K Resistance Generique
+$ENDCMP
+#
+$CMP Resistance_Variable
+D Resistance Variable SYMBOL
+$ENDCMP
+#
+#End Doc Library

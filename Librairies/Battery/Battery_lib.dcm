@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Battery
+D Battery, Single cell SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP Battery_mc
+D Battery, Multi-cell SYMBOL
+K SYMBOL
+$ENDCMP
+#
+#End Doc Library

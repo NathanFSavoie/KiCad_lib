@@ -1,0 +1,89 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0731000105
+D CONN BNC JACK R/A 50 OHM PCB
+K BNC Jack, Female Socket
+F http://www.molex.com/pdm_docs/sd/731000105_sd.pdf
+$ENDCMP
+#
+$CMP Connecteur_SYMBOL
+D Connecteur_SYMBOL
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X10_,_Unshrouded
+D Header Male Pin 2.54mm 1X10, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X2_,_Unshrouded
+D Header Male Pin 2.54mm 1X2, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X3_,_Unshrouded
+D Header Male Pin 2.54mm 1X3, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X4_,_Unshrouded
+D Header Male Pin 2.54mm 1X4, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X5_,_Unshrouded
+D Header Male Pin 2.54mm 1X5, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X6_,_Unshrouded
+D Header Male Pin 2.54mm 1X6, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X7_,_Unshrouded
+D Header Male Pin 2.54mm 1X7, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X8_,_Unshrouded
+D Header Male Pin 2.54mm 1X8, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_1X9_,_Unshrouded
+D Header Male Pin 2.54mm 1X9, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X10_,_Unshrouded
+D Header Male Pin 2.54mm 2X5, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X2_,_Unshrouded
+D Header Male Pin 2.54mm 2X2, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X3_,_Unshrouded
+D Header Male Pin 2.54mm 2X3, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X4_,_Unshrouded
+D Header Male Pin 2.54mm 2X4, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X5_,_Unshrouded
+D Header Male Pin 2.54mm 2X5, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X6_,_Unshrouded
+D Header Male Pin 2.54mm 2X5, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X7_,_Unshrouded
+D Header Male Pin 2.54mm 2X5, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X8_,_Unshrouded
+D Header Male Pin 2.54mm 2X5, Unshrouded
+$ENDCMP
+#
+$CMP Header_Male_Pin_2.54mm_2X9_,_Unshrouded
+D Header Male Pin 2.54mm 2X5, Unshrouded
+$ENDCMP
+#
+$CMP Plug
+D Plug, Connection pour fil
+$ENDCMP
+#
+#End Doc Library

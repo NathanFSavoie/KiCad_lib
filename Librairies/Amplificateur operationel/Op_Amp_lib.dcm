@@ -1,0 +1,79 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8137YRZ
+D IC OPAMP DIFF 110MHZ RRO 8SOIC
+K Differential, Rail-to-Rail
+F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8137.pdf
+$ENDCMP
+#
+$CMP ADCMP350YKSZ
+D IC COMP/REF OD ACTIVE LOW SC70-4
+K Comparateur avec Reference
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
+$CMP ADCMP354YKSZ
+D IC COMP/REF OD ACTIVE HI SC70-4
+K Comparateur avec Reference
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
+$ENDCMP
+#
+$CMP Fully_Differential
+D Fully Differential Op Amp SYMBOL
+$ENDCMP
+#
+$CMP INA126UA/2K5
+D IC OPAMP INSTR 200KHZ 8SOIC
+K Instrumentation
+F http://www.ti.com/lit/ds/symlink/ina126.pdf
+$ENDCMP
+#
+$CMP INA827AIDGKR
+D IC OPAMP INSTR 600KHZ RRO 8VSSOP
+K Instrumentation Rail-to-Rail
+F http://www.ti.com/lit/ds/symlink/ina827.pdf
+$ENDCMP
+#
+$CMP Instrumentation
+D Instrumentation Op Amp SYMBOL
+$ENDCMP
+#
+$CMP LT1210CR
+D IC OPAMP CFA 100MHZ 8SO
+K Current Feedback High Current
+F http://cds.linear.com/docs/en/datasheet/1210fb.pdf
+$ENDCMP
+#
+$CMP LT1228CS8
+D IC OPAMP CFA 100MHZ 8SO
+K Current Feedback Voltage controlled Gain
+F http://cds.linear.com/docs/en/datasheet/1228fd.pdf
+$ENDCMP
+#
+$CMP OP-AMP
+D Op Amp SYMBOL
+$ENDCMP
+#
+$CMP OPA2171AIDR
+D IC OPAMP GP 3MHZ RRO 8SOIC
+K General Purpose
+F http://www.ti.com/lit/ds/symlink/opa2171.pdf
+$ENDCMP
+#
+$CMP OPA861IDBVT
+D IC OPAMP TRANSCOND 80MHZ SOT23-6
+K Transconductance
+F http://www.ti.com/lit/ds/symlink/opa861.pdf
+$ENDCMP
+#
+$CMP TL072ID
+D IC OPAMP JFET 3MHZ 8SOIC
+K General Purpose, J-FET
+F http://www.ti.com/lit/ds/symlink/tl071a.pdf
+$ENDCMP
+#
+$CMP Transconductor
+D Transconductor SYMBOL
+$ENDCMP
+#
+#End Doc Library

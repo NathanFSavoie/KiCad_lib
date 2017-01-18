@@ -1,0 +1,85 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 380LX562M080K452
+D CAP ALUM 5600UF 20% 80V SNAP
+K General Purpose
+F http://www.cde.com/resources/catalogs/380-382.pdf
+$ENDCMP
+#
+$CMP 381LX822M050K452
+D CAP ALUM 8200UF 20% 50V SNAP
+K General Purpose
+F http://www.cde.com/resources/catalogs/381-383.pdf
+$ENDCMP
+#
+$CMP C3216JB0J686M160AB
+D CAP CER 68UF 6.3V JB 1206
+K General Purpose
+F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
+$ENDCMP
+#
+$CMP Condensateur
+D Condensateur SYMBOL
+$ENDCMP
+#
+$CMP Condensateur_Generique
+D Condensateur Generique
+$ENDCMP
+#
+$CMP Condensateur_Generique_Polarise
+D Condensateur Generique Polarise
+$ENDCMP
+#
+$CMP Condensateur_Polarise
+D Condensateur Polarise SYMBOL
+$ENDCMP
+#
+$CMP EDK106M050A9GAA
+D CAP ALUM 10UF 20% 50V SMD
+K General Purpose
+F http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf
+$ENDCMP
+#
+$CMP EKYB250ELL122MJ25S
+D CAP ALUM 1200UF 20% 25V RADIAL
+K General Purpose
+F http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=kyb
+$ENDCMP
+#
+$CMP EMK325F226ZN-T
+D CAP CER 22UF 16V Y5V 1210
+K General Purpose
+F NA
+$ENDCMP
+#
+$CMP GMK316F475ZG-T
+D CAP CER 4.7UF 35V Y5V 1206
+K General Purpose
+F NA
+$ENDCMP
+#
+$CMP LGU2E331MELY
+D CAP ALUM 330UF 20% 250V SNAP
+K General Purpose
+F http://nichicon-us.com/english/products/pdfs/e-lgu.pdf
+$ENDCMP
+#
+$CMP LMK316F226ZL-T
+D CAP CER 22UF 10V Y5V 1206
+K General Purpose
+F NA
+$ENDCMP
+#
+$CMP PCF1A471MCL1GS
+D CAP POLYMER 470UF 20% 10V SMD
+K General Purpose
+F http://nichicon-us.com/english/products/pdfs/e-cf.pdf
+$ENDCMP
+#
+$CMP RPS1C560MCN1GS
+D CAP POLYMER 56UF 20% 16V SMD
+K General Purpose
+F http://nichicon-us.com/english/products/pdfs/e-cf.pdf
+$ENDCMP
+#
+#End Doc Library

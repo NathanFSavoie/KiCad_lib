@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Transformateur_SYMBOL
+D Transformateur_SYMBOL
+$ENDCMP
+#
+$CMP VPS230-110
+D XFRMR LAMINATED 25VA CHAS MOUNT
+F http://catalog.triadmagnetics.com/Asset/VPS230-110.pdf
+$ENDCMP
+#
+$CMP VPS230-110_NO_PIN
+D XFRMR LAMINATED 25VA CHAS MOUNT
+F http://catalog.triadmagnetics.com/Asset/VPS230-110.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,593 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# 3306F-1-201
+#
+DEF ~3306F-1-201 VR 0 0 N N 1 F N
+F0 "VR" 110 115 50 H V C CNN
+F1 "3306F-1-201" 0 -320 50 H I C CNN
+F2 "Resistances:3306F" 0 -910 30 H I C CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/3306.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "3306F-201-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Bourns Inc." 0 -610 60 H I C CNN "Manufacturer"
+F7 "3306F-1-201" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 200 OHM 0.2W PC PIN" 0 -810 60 H I C CNN "Description"
+F9 "200Ω" 170 0 50 H V C CNN "Resistance (Ohms)"
+F10 "0.2W" 160 -70 50 H V C CNN "Puissance (Watts)"
+F11 "±25%" 170 -150 50 H I C CNN "Tolerance (%)"
+DRAW
+T 0 -90 140 50 0 0 0 CW  Normal 0 C C
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0  -150 0  -45 0  -70 15  -70 -15  -45 0 F
+P 13 0 1 0  0 -120  30 -100  0 -80  -30 -60  0 -40  30 -20  0 0  -30 20  0 40  30 60  0 80  -30 100  0 120 N
+X CCW 1 0 -200 50 U 50 50 1 1 P
+X Wiper 2 -200 0 50 R 50 50 1 1 P
+X CW 3 0 200 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ERJ-8ENF1541V
+#
+DEF ~ERJ-8ENF1541V R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "ERJ-8ENF1541V" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/precision-thick-film-chip-resistors/ERJ8ENF1541V" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "P1.54KFCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electronic Components" 0 -600 60 H I C CNN "Manufacturer"
+F7 "ERJ-8ENF1541V" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1.54K OHM 1% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "1.54k" -90 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 110 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# ERJ-8ENF3742V
+#
+DEF ~ERJ-8ENF3742V R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "ERJ-8ENF3742V" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "http://industrial.panasonic.com/ww/products/resistors/chip-resistors/chip-resistors/precision-thick-film-chip-resistors/ERJ8ENF3742V" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "P37.4KFCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electronic Components" 0 -600 60 H I C CNN "Manufacturer"
+F7 "ERJ-8ENF3742V" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 37.4K OHM 1% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "37.4k" -80 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+F11 "±1%" 120 -70 50 H V C CNN "Tolerance (%)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LRC-LR1206LF-01-R040F
+#
+DEF ~LRC-LR1206LF-01-R040F R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "LRC-LR1206LF-01-R040F" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "http://www.ttelectronicsresistors.com/datasheets/lr.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "989-1028-1-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "TT Electronics/IRC" 0 -600 60 H I C CNN "Manufacturer"
+F7 "LRC-LR1206LF-01-R040F" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 0.04 OHM 1% 1/2W 1206" 0 -800 60 H I C CNN "Description"
+F9 "0.04" -100 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 0 -160 50 H V C CNN "Puissance (Watts)"
+F11 "±1%" 90 -70 50 H V C CNN "Tolerance (%)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LRC-LR2512LF-01-R100F
+#
+DEF ~LRC-LR2512LF-01-R100F R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "LRC-LR2512LF-01-R100F" 0 -300 50 H I C CNN
+F2 "Resistances:R2512" 0 -900 30 H I C CNN
+F3 "http://www.ttelectronicsresistors.com/datasheets/lr.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "989-1063-1-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "TT Electronics/IRC" 0 -600 60 H I C CNN "Manufacturer"
+F7 "LRC-LR2512LF-01-R100F" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "**NON-STOCK** RES SMD 0.1 OHM 1% 2W 2512" 0 -800 60 H I C CNN "Description"
+F9 "0.1" -80 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 100 -70 50 H V C CNN "Tolerance (%)"
+F11 "2W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MCR18ERTF1962
+#
+DEF ~MCR18ERTF1962 R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "MCR18ERTF1962" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "http://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/MCR18ERT_Spec.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RHM19.6KCJCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Rohm Semiconductor" 0 -600 60 H I C CNN "Manufacturer"
+F7 "MCR18ERTF1962" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 19.6K OHM 1% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "19.6k" -100 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 110 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MCR18ERTF5601
+#
+DEF ~MCR18ERTF5601 R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "MCR18ERTF5601" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "http://media.digikey.com/pdf/Data%20Sheets/Rohm%20PDFs/MCR18ERT_Spec.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RHM5.60KCJCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Rohm Semiconductor" 0 -600 60 H I C CNN "Manufacturer"
+F7 "MCR18ERTF5601" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 5.6K OHM 1% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "5.6k" -90 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+F11 "±1%" 100 -70 50 H V C CNN "Tolerance (%)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MFR-25FBF52-1K
+#
+DEF ~MFR-25FBF52-1K R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "MFR-25FBF52-1K" 0 -300 50 H I C CNN
+F2 "Resistances:MFR-25" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "1.00KXBK-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "MFR-25FBF52-1K" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES 1K OHM 1/4W 1% AXIAL" 0 -800 60 H I C CNN "Description"
+F9 "1k" 20 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "1%" 120 -70 50 H I C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MFR-25FBF52-49R9
+#
+DEF ~MFR-25FBF52-49R9 R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "MFR-25FBF52-49R9" 0 -300 50 H I C CNN
+F2 "Resistances:MFR-25" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/Yageo%20LR_MFR_2013.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "	49.9XBK-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "MFR-25FBF52-49R9" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES 49.9 OHM 1/4W 1% AXIAL" 0 -800 60 H I C CNN "Description"
+F9 "49.9" 20 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "1%" 170 -70 50 H I C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Potentiometre
+#
+DEF ~Potentiometre VR 0 0 N N 1 F N
+F0 "VR" 110 115 50 H V C CNN
+F1 "Potentiometre" 0 -320 50 H I C CNN
+F2 "F" 0 -910 30 H I C CNN
+F3 "D" 0 -960 30 H I C CNN
+F4 "Supplier" 0 -510 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -810 60 H I C CNN "Description"
+F9 "Resistance" 300 0 50 H V C CNN "Resistance (Ohms)"
+F10 "Puissance" 290 -60 50 H V C CNN "Puissance (Watts)"
+F11 "Tolerance" 690 0 50 H V C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0  -150 0  -45 0  -70 15  -70 -15  -45 0 F
+P 13 0 1 0  0 -120  30 -100  0 -80  -30 -60  0 -40  30 -20  0 0  -30 20  0 40  30 60  0 80  -30 100  0 120 N
+X ~ ~ -200 0 50 R 50 50 1 1 P
+X ~ ~ 0 -200 50 U 50 50 1 1 P
+X ~ ~ 0 200 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-0734R8L
+#
+DEF ~RC0805FR-0734R8L R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RC0805FR-0734R8L" 0 -300 50 H I C CNN
+F2 "Resistances:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-34.8CRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-0734R8L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 34.8 OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "34.8" -110 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 110 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.125W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC0805FR-0760R4L
+#
+DEF ~RC0805FR-0760R4L R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RC0805FR-0760R4L" 0 -300 50 H I C CNN
+F2 "Resistances:R0805" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-60.4CRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC0805FR-0760R4L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 60.4 OHM 1% 1/8W 0805" 0 -800 60 H I C CNN "Description"
+F9 "60.4" -110 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 110 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.125W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC1206FR-0726K7L
+#
+DEF ~RC1206FR-0726K7L R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RC1206FR-0726K7L" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-26.7KFRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC1206FR-0726K7L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 26.7K OHM 1% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "26.7k" -90 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 110 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC1206FR-0737K4L
+#
+DEF ~RC1206FR-0737K4L R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RC1206FR-0737K4L" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-37.4KFRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC1206FR-0737K4L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 37.4K OHM 1% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "37.4k" -90 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 110 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC1206JR-0722KL
+#
+DEF ~RC1206JR-0722KL R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RC1206JR-0722KL" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/NewPortal/yageodocoutput?fileName=/pdf/R-Chip/PYu-RC_Group_51_RoHS_L_3.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-22KERCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC1206JR-0722KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 22K OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "22k" -80 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+F11 "±5%" 100 -70 50 H V C CNN "Tolerance"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RMCF1206FT115K
+#
+DEF ~RMCF1206FT115K R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RMCF1206FT115K" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RMCF1206FT115KCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "RMCF1206FT115K" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 115K OHM 1% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "115k" -100 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 90 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RMCF1206FT19K6
+#
+DEF ~RMCF1206FT19K6 R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RMCF1206FT19K6" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RMCF1206FT19K6CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "RMCF1206FT19K6" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 19.6K OHM 1% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "19.6k" -90 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "	±1%" 90 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RMCF1206JT16K0
+#
+DEF ~RMCF1206JT16K0 R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RMCF1206JT16K0" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RMCF1206JT16K0CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "RMCF1206JT16K0" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 16K OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "16k" -80 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 90 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RMCF1206JT56K0
+#
+DEF ~RMCF1206JT56K0 R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RMCF1206JT56K0" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RMCF1206JT56K0CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "RMCF1206JT56K0" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 56K OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "56k" -90 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 90 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RMCF1206JT68K0
+#
+DEF ~RMCF1206JT68K0 R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RMCF1206JT68K0" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RMCF1206JT68K0CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "RMCF1206JT68K0" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 68K OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "68k" -90 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 100 -70 50 H V C CNN "Tolerance (%)"
+F11 "0.25W" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RNCP1206FTD3K48
+#
+DEF ~RNCP1206FTD3K48 R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "RNCP1206FTD3K48" 0 -300 50 H I C CNN
+F2 "Resistances:R1206" 0 -900 30 H I C CNN
+F3 "https://www.seielect.com/catalog/SEI-RNCP.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "RNCP1206FTD3K48CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Stackpole Electronics Inc." 0 -600 60 H I C CNN "Manufacturer"
+F7 "RNCP1206FTD3K48" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "**NON-STOCK **RES SMD 3.48K OHM 1% 1/2W 1206" 0 -800 60 H I C CNN "Description"
+F9 "3.48k" -90 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 0 -140 50 H V C CNN "Puissance (Watts)"
+F11 "±1%" 110 -70 50 H V C CNN "Tolerance (%)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 1 1 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistance
+#
+DEF ~Resistance R 0 0 N N 1 F N
+F0 "R" 0 80 50 H V C CNN
+F1 "Resistance" 0 -300 50 H I C CNN
+F2 "F" 0 -900 30 H I C CNN
+F3 "D" 0 -950 30 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+F9 "Resistance" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "Tolerance" 410 -80 50 H V C CNN "Tolerance (%)"
+F11 "Puissance" 0 -140 50 H V C CNN "Puissance (Watts)"
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 120 0 150 0 0 1 0 N
+P 13 0 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistance_Generique
+#
+DEF ~Resistance_Generique R 0 0 N Y 1 F N
+F0 "R" 0 100 50 H V C CNN
+F1 "Resistance_Generique" 50 -300 50 H I C CNN
+F2 "F" 50 -900 30 H I C CNN
+F3 "D" 50 -950 30 H I C CNN
+F4 "Supplier" 50 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 50 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 50 -800 60 H I C CNN "Description"
+F9 "Resistance" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "Puissance" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "Tolerance" 0 -140 50 H V C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0  120 0  100 30  80 0  60 -30  40 0  20 30  0 0  -20 -30  -40 0  -60 30  -80 0  -100 -30  -120 0 N
+X ~ 1 -200 0 50 R 50 50 1 1 P
+X ~ 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistance_Variable
+#
+DEF Resistance_Variable VR 0 0 N Y 1 F N
+F0 "VR" 200 80 50 H V C CNN
+F1 "Resistance_Variable" 500 10 50 H V C CNN
+F2 "F" 0 -950 30 H I C CNN
+F3 "D" 0 -1000 30 H I C CNN
+F4 "Supplier" 0 -450 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -650 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -850 60 H I C CNN "Description"
+F9 "Resistance" 330 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "Puissance" 320 -150 50 H V C CNN "Puissance (Watts)"
+F11 "Tolerance" 720 -80 50 H V C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 10  -75 -100  80 110  45 100  85 75  80 110 F
+P 13 0 1 0  0 -120  30 -100  0 -80  -30 -60  0 -40  30 -20  0 0  -30 20  0 40  30 60  0 80  -30 100  0 120 N
+X ~ ~ 0 -200 50 U 50 50 1 1 P
+X ~ ~ 0 200 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
