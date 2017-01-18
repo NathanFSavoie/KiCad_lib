@@ -23,4 +23,6 @@ _autosave-*
 *.kicad_pcb
 *.pro
 *.sch
+Kicad_lib-cache.lib
+fp-lib-table
 
