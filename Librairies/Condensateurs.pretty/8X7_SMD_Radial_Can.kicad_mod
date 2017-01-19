@@ -15,4 +15,9 @@
   (fp_line (start -2.512 -4.15) (end -2 -4.15) (layer F.SilkS) (width 0.127))
   (pad 1 smd rect (at 0 -3.05) (size 3 4) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0 3.05) (size 3 4) (layers F.Cu F.Paste F.Mask))
+  (model /home/christian-dsa/KiCad_lib/Modele_3D/Condensateurs/SMD_Radial_Can_8_0x6_9.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.39397 0.39397 0.39397))
+    (rotate (xyz -90 0 90))
+  )
 )

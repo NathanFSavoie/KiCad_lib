@@ -14,4 +14,9 @@
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
   )
+  (model /home/christian-dsa/KiCad_lib/Modele_3D/Condensateurs/C0805.wrl
+    (at (xyz 0.04 0.0005 0))
+    (scale (xyz 0.39397 0.39397 0.39397))
+    (rotate (xyz 0 0 0))
+  )
 )
