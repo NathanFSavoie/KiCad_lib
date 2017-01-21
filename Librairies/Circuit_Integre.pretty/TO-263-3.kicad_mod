@@ -33,4 +33,9 @@
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 270 0 0))
   )
+  (model /home/christian-dsa/KiCad_lib/Modele_3D/Circuit_Integre/TO-263.wrl
+    (at (xyz 0 0.35 0.1))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 270 0 0))
+  )
 )
