@@ -13,4 +13,9 @@
   (fp_line (start 0.56 -0.85) (end -0.56 -0.85) (layer F.SilkS) (width 0.127))
   (pad 1 smd rect (at -1.82 0) (size 2 2.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.82 0) (size 2 2.5) (layers F.Cu F.Paste F.Mask))
+  (model /home/christian-dsa/KiCad_lib/Modele_3D/Diodes/ll-34.wrl
+    (at (xyz 0 0 0.028))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
 )

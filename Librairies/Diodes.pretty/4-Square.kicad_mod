@@ -26,4 +26,9 @@
   (pad 4 thru_hole circle (at 6.25 -6.25) (size 3 3) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -6.25 -6.25) (size 3 3) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at -6.25 6.25) (size 3 3) (drill 1.6) (layers *.Cu *.Mask F.SilkS))
+  (model /home/christian-dsa/KiCad_lib/Modele_3D/Diodes/4-square.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz -90 0 0))
+  )
 )

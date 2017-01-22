@@ -24,4 +24,9 @@
   (pad 3 smd rect (at -0.975 2.8) (size 0.35 2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.625 2.8) (size 0.35 2) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -2.275 2.8) (size 0.35 2) (layers F.Cu F.Paste F.Mask))
+  (model /home/christian-dsa/KiCad_lib/Modele_3D/Circuit_Integre/TSSOP-16.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 -90))
+  )
 )
