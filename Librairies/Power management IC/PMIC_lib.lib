@@ -19,17 +19,41 @@ F11 "±0.25%" 0 -660 50 H I C CNN "Accuracy"
 F12 "-2 V ~ 65 V" 0 -750 50 H I C CNN "Voltage - Input"
 F13 "-" 10 -825 50 H I C CNN "Current - Output"
 DRAW
-T 0 0 -150 50 0 0 0 GND  Normal 0 C C
-T 0 290 0 50 0 0 0 Out  Normal 0 C C
-T 0 -320 0 50 0 0 0 V+  Normal 0 C C
-T 0 -280 150 50 0 0 0 Vin+  Normal 0 C C
-T 0 290 150 50 0 0 0 Vin-  Normal 0 C C
+T 0 0 -150 50 0 0 0 GND Normal 0 C C
+T 0 290 0 50 0 0 0 Out Normal 0 C C
+T 0 -320 0 50 0 0 0 V+ Normal 0 C C
+T 0 -280 150 50 0 0 0 Vin+ Normal 0 C C
+T 0 290 150 50 0 0 0 Vin- Normal 0 C C
 S -400 -200 400 200 0 0 0 N
 X Out 1 500 0 100 L 50 50 1 1 I
 X GND 2 0 -300 100 U 50 50 1 1 I
 X Vin+ 3 -300 300 100 D 50 50 1 1 I
 X Vin- 4 300 300 100 D 50 50 1 1 I
 X V+ 5 -500 0 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# AL8860MP-13
+#
+DEF AL8860MP-13 U 0 40 N Y 1 F N
+F0 "U" 0 400 60 H V C CNN
+F1 "AL8860MP-13" 0 -400 60 H V C CNN
+F2 "Circuit_Integre:MSOP-8-EP" 0 -700 60 H I C CNN
+F3 "http://www.diodes.com/_files/datasheets/AL8860.pdf" 0 -800 60 H I C CNN
+F4 "Digikey" 0 -900 60 H I C CNN "Supplier"
+F5 "AL8860MP-13DICT-ND" 0 -1000 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -1100 60 H I C CNN "Manufacturer"
+F7 "AL8860MP-13" 0 -1200 60 H I C CNN "Manufacturer Part Number"
+F8 "LED Driver IC 1 Output DC DC Regulator Step-Down Analog, PWM Dimming 1.5A 8-MSOP-EP" 0 -1300 60 H I C CNN "Description"
+DRAW
+S -300 300 300 -300 0 1 0 N
+X SET 1 500 200 200 L 50 50 1 1 I
+X GND 2 -500 -200 200 R 50 50 1 1 I
+X GND 3 -500 -200 200 R 50 50 1 1 I N
+X CTRL 4 -500 0 200 R 50 50 1 1 I
+X SW 5 500 -200 200 L 50 50 1 1 I
+X SW 6 500 -200 200 L 50 50 1 1 I N
+X Vin 8 -500 200 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -53,9 +77,9 @@ F13 "1" -10 -935 50 H I C CNN "Number of Regulators"
 F14 "6.4 V ~ 18 V" -10 -1015 50 H I C CNN "Voltage - Input"
 F15 "1.1A" -10 -1095 50 H I C CNN "Current - Limit (Min)"
 DRAW
-T 0 0 -150 50 0 0 0 GND  Normal 0 C C
-T 0 -130 0 50 0 0 0 Vin  Normal 0 C C
-T 0 100 0 50 0 0 0 Vout  Normal 0 C C
+T 0 0 -150 50 0 0 0 GND Normal 0 C C
+T 0 -130 0 50 0 0 0 Vin Normal 0 C C
+T 0 100 0 50 0 0 0 Vout Normal 0 C C
 S -200 50 200 -200 0 0 0 N
 X GND 1 0 -300 100 U 50 50 1 1 I
 X Vout 2 300 0 100 L 50 50 1 1 I
@@ -89,13 +113,13 @@ F18 "500mA (Switch)" 5 -1585 50 H I C CNN "Current - Output"
 F19 "1.5MHz" 0 -1695 50 H I C CNN "Frequency - Switching"
 F20 "No" 0 -1790 50 H I C CNN "Synchronous Rectifier"
 DRAW
-T 0 330 0 50 0 0 0 FB  Normal 0 C C
-T 0 0 -150 50 0 0 0 GND  Normal 0 C C
-T 0 -280 0 50 0 0 0 SHDN  Normal 0 C C
-T 0 290 140 50 0 0 0 SW  Normal 0 C C
-T 0 -300 140 50 0 0 0 Vin  Normal 0 C C
+T 0 330 0 50 0 0 0 FB Normal 0 C C
+T 0 0 -150 50 0 0 0 GND Normal 0 C C
+T 0 -280 0 50 0 0 0 SHDN Normal 0 C C
+T 0 290 140 50 0 0 0 SW Normal 0 C C
+T 0 -300 140 50 0 0 0 Vin Normal 0 C C
 S -400 -200 400 200 0 0 0 N
-P 2 0 0 0  -380 50  -180 50 N
+P 2 0 0 0 -380 50 -180 50 N
 X SW 1 300 300 100 D 50 50 1 1 I
 X GND 2 0 -300 100 U 50 50 1 1 I
 X FB 3 500 0 100 L 50 50 1 1 I
@@ -130,53 +154,53 @@ F19 "Up to 180kHz" 0 -1695 50 H I C CNN "Frequency - Switching"
 F20 "No" 0 -1790 50 H I C CNN "Synchronous Rectifier"
 DRAW
 A -120 405 75 -899 899 0 0 0 N -120 330 -120 480
-T 0 -30 -280 50 0 0 0 +  Normal 0 C C
-T 0 -30 -400 50 0 0 0 -  Normal 0 C C
-T 0 207 -268 50 0 0 0 1.25V  Normal 0 C C
-T 0 -180 371 50 0 0 0 A  Normal 0 C C
-T 0 -180 435 50 0 0 0 B  Normal 0 C C
-T 0 25 19 50 0 0 0 Ct  Normal 0 C C
-T 0 -153 21 50 0 0 0 Ipk  Normal 0 C C
-T 0 -61 -51 50 0 0 0 OSC  Normal 0 C C
-T 0 93 414 50 0 0 0 Q  Normal 0 C C
-T 0 41 302 50 0 0 0 R  Normal 0 C C
-T 0 207 -338 50 0 0 0 Ref  Normal 0 C C
-T 0 39 412 50 0 0 0 S  Normal 0 C C
+T 0 -30 -280 50 0 0 0 + Normal 0 C C
+T 0 -30 -400 50 0 0 0 - Normal 0 C C
+T 0 207 -268 50 0 0 0 1.25V Normal 0 C C
+T 0 -180 371 50 0 0 0 A Normal 0 C C
+T 0 -180 435 50 0 0 0 B Normal 0 C C
+T 0 25 19 50 0 0 0 Ct Normal 0 C C
+T 0 -153 21 50 0 0 0 Ipk Normal 0 C C
+T 0 -61 -51 50 0 0 0 OSC Normal 0 C C
+T 0 93 414 50 0 0 0 Q Normal 0 C C
+T 0 41 302 50 0 0 0 R Normal 0 C C
+T 0 207 -338 50 0 0 0 Ref Normal 0 C C
+T 0 39 412 50 0 0 0 S Normal 0 C C
 S -400 -550 500 550 0 0 0 N
 S -210 70 80 -100 0 0 0 N
 S 10 460 130 260 0 0 0 N
 S 100 -220 330 -380 0 0 0 N
-P 2 0 0 0  -220 480  -120 480 N
-P 2 0 0 0  -70 70  -70 290 N
-P 2 0 0 0  -45 410  10 410 N
-P 2 0 0 0  0 -280  100 -280 N
-P 2 0 0 0  170 410  130 410 N
-P 2 0 0 0  210 380  270 350 N
-P 2 0 0 0  210 410  170 410 N
-P 2 0 0 0  210 460  210 360 N
-P 2 0 0 0  270 350  270 330 N
-P 2 0 0 0  360 290  420 260 N
-P 2 0 0 0  360 320  320 320 N
-P 2 0 0 0  360 370  360 270 N
-P 2 0 0 0  420 260  420 240 N
-P 3 0 0 0  -420 100  -150 100  -150 70 N
-P 3 0 0 0  -400 500  270 500  270 490 N
-P 3 0 0 0  -220 480  -220 330  -120 330 N
-P 3 0 0 0  220 -380  220 -500  500 -500 N
-P 3 0 0 0  270 140  270 100  420 100 N
-P 3 0 0 0  270 330  270 320  320 320 N
-P 3 0 0 0  270 490  270 470  210 440 N
-P 3 0 0 0  420 240  420 100  500 100 N
-P 3 0 0 0  420 400  420 380  360 350 N
-P 3 0 0 0  420 400  420 500  500 500 N
-P 4 0 0 0  -220 370  -260 370  -260 290  -45 290 N
-P 4 0 0 0  -170 -340  -290 -340  -290 440  -220 440 N
-P 4 0 0 0  0 -400  50 -400  50 -500  -400 -500 N
-P 4 0 0 0  0 -220  0 -460  -170 -340  0 -220 N
-P 4 0 0 0  270 350  260 370  250 350  270 350 F
-P 4 0 0 0  420 260  410 280  400 260  420 260 F
-P 4 0 0 0  500 -200  380 -200  380 20  80 20 N
-P 10 0 0 0  270 140  270 170  240 180  300 200  240 220  300 240  240 260  300 280  270 290  270 320 N
+P 2 0 0 0 -220 480 -120 480 N
+P 2 0 0 0 -70 70 -70 290 N
+P 2 0 0 0 -45 410 10 410 N
+P 2 0 0 0 0 -280 100 -280 N
+P 2 0 0 0 170 410 130 410 N
+P 2 0 0 0 210 380 270 350 N
+P 2 0 0 0 210 410 170 410 N
+P 2 0 0 0 210 460 210 360 N
+P 2 0 0 0 270 350 270 330 N
+P 2 0 0 0 360 290 420 260 N
+P 2 0 0 0 360 320 320 320 N
+P 2 0 0 0 360 370 360 270 N
+P 2 0 0 0 420 260 420 240 N
+P 3 0 0 0 -420 100 -150 100 -150 70 N
+P 3 0 0 0 -400 500 270 500 270 490 N
+P 3 0 0 0 -220 480 -220 330 -120 330 N
+P 3 0 0 0 220 -380 220 -500 500 -500 N
+P 3 0 0 0 270 140 270 100 420 100 N
+P 3 0 0 0 270 330 270 320 320 320 N
+P 3 0 0 0 270 490 270 470 210 440 N
+P 3 0 0 0 420 240 420 100 500 100 N
+P 3 0 0 0 420 400 420 380 360 350 N
+P 3 0 0 0 420 400 420 500 500 500 N
+P 4 0 0 0 -220 370 -260 370 -260 290 -45 290 N
+P 4 0 0 0 -170 -340 -290 -340 -290 440 -220 440 N
+P 4 0 0 0 0 -400 50 -400 50 -500 -400 -500 N
+P 4 0 0 0 0 -220 0 -460 -170 -340 0 -220 N
+P 4 0 0 0 270 350 260 370 250 350 270 350 F
+P 4 0 0 0 420 260 410 280 400 260 420 260 F
+P 4 0 0 0 500 -200 380 -200 380 20 80 20 N
+P 10 0 0 0 270 140 270 170 240 180 300 200 240 220 300 240 240 260 300 280 270 290 270 320 N
 C -17 294 27 0 1 0 N
 X Switch_Collector 1 600 500 100 L 50 50 1 1 I
 X Switch_Emitter 2 600 100 100 L 50 50 1 1 I
@@ -214,14 +238,14 @@ F18 "1.5A (Switch)" 15 -1375 50 H I C CNN "Current - Output"
 F19 "280kHz" 10 -1485 50 H I C CNN "Frequency - Switching"
 F20 "No" 10 -1580 50 H I C CNN "Synchronous Rectifier"
 DRAW
-T 0 90 -280 50 0 0 0 AGND  Normal 0 C C
-T 0 130 0 50 0 0 0 FB  Normal 0 C C
-T 0 90 -200 50 0 0 0 PGND  Normal 0 C C
-T 0 -140 -100 50 0 0 0 SS  Normal 0 C C
-T 0 -110 0 50 0 0 0 Test  Normal 0 C C
-T 0 -140 -190 50 0 0 0 Vc  Normal 0 C C
-T 0 -120 200 50 0 0 0 Vcc  Normal 0 C C
-T 0 110 200 50 0 0 0 Vsw  Normal 0 C C
+T 0 90 -280 50 0 0 0 AGND Normal 0 C C
+T 0 130 0 50 0 0 0 FB Normal 0 C C
+T 0 90 -200 50 0 0 0 PGND Normal 0 C C
+T 0 -140 -100 50 0 0 0 SS Normal 0 C C
+T 0 -110 0 50 0 0 0 Test Normal 0 C C
+T 0 -140 -190 50 0 0 0 Vc Normal 0 C C
+T 0 -120 200 50 0 0 0 Vcc Normal 0 C C
+T 0 110 200 50 0 0 0 Vsw Normal 0 C C
 S 200 -350 -200 250 0 0 0 N
 X Vc 1 -300 -200 100 R 50 50 1 1 I
 X FB 2 300 0 100 L 50 50 1 1 I
@@ -321,11 +345,11 @@ F11 "±3%" 0 -660 50 H I C CNN "Accuracy"
 F12 "-16 V ~ 80 V" 0 -750 50 H I C CNN "Voltage - Input"
 F13 "-" 10 -825 50 H I C CNN "Current - Output"
 DRAW
-T 0 0 -150 50 0 0 0 GND  Normal 0 C C
-T 0 290 0 50 0 0 0 Out  Normal 0 C C
-T 0 -320 0 50 0 0 0 V+  Normal 0 C C
-T 0 -280 150 50 0 0 0 Vin+  Normal 0 C C
-T 0 290 150 50 0 0 0 Vin-  Normal 0 C C
+T 0 0 -150 50 0 0 0 GND Normal 0 C C
+T 0 290 0 50 0 0 0 Out Normal 0 C C
+T 0 -320 0 50 0 0 0 V+ Normal 0 C C
+T 0 -280 150 50 0 0 0 Vin+ Normal 0 C C
+T 0 290 150 50 0 0 0 Vin- Normal 0 C C
 S -400 -200 400 200 0 0 0 N
 X Out 1 500 0 100 L 50 50 1 1 I
 X GND 2 0 -300 100 U 50 50 1 1 I
@@ -353,13 +377,13 @@ F11 "±1%" 0 -660 50 H I C CNN "Accuracy"
 F12 "-16 V ~ 80 V" 0 -750 50 H I C CNN "Voltage - Input"
 F13 "-" 10 -825 50 H I C CNN "Current - Output"
 DRAW
-T 0 -200 -200 50 0 0 0 Buffer~IN  Normal 0 C C
-T 0 290 -100 50 0 0 0 GND  Normal 0 C C
-T 0 300 100 50 0 0 0 Out  Normal 0 C C
-T 0 -230 0 50 0 0 0 Pre~Out  Normal 0 C C
-T 0 -320 200 50 0 0 0 V+  Normal 0 C C
-T 0 -280 350 50 0 0 0 Vin+  Normal 0 C C
-T 0 290 350 50 0 0 0 Vin-  Normal 0 C C
+T 0 -200 -200 50 0 0 0 Buffer~IN Normal 0 C C
+T 0 290 -100 50 0 0 0 GND Normal 0 C C
+T 0 300 100 50 0 0 0 Out Normal 0 C C
+T 0 -230 0 50 0 0 0 Pre~Out Normal 0 C C
+T 0 -320 200 50 0 0 0 V+ Normal 0 C C
+T 0 -280 350 50 0 0 0 Vin+ Normal 0 C C
+T 0 290 350 50 0 0 0 Vin- Normal 0 C C
 S -400 -250 400 400 0 0 0 N
 X Out 1 500 100 100 L 50 50 1 1 I
 X GND 2 500 -100 100 L 50 50 1 1 I
@@ -391,9 +415,9 @@ F13 "1" -10 -935 50 H I C CNN "Number of Regulators"
 F14 "Up to -40V" -10 -1015 50 H I C CNN "Voltage - Input"
 F15 "1.5A" -10 -1095 50 H I C CNN "Current - Limit (Min)"
 DRAW
-T 0 0 -150 50 0 0 0 ADJ  Normal 0 C C
-T 0 -130 0 50 0 0 0 Vin  Normal 0 C C
-T 0 100 0 50 0 0 0 Vout  Normal 0 C C
+T 0 0 -150 50 0 0 0 ADJ Normal 0 C C
+T 0 -130 0 50 0 0 0 Vin Normal 0 C C
+T 0 100 0 50 0 0 0 Vout Normal 0 C C
 S -200 50 200 -200 0 0 0 N
 X ADJ 1 0 -300 100 U 50 50 1 1 I
 X Vout 2 300 0 100 L 50 50 1 1 I
@@ -421,9 +445,9 @@ F13 "1" -10 -935 50 H I C CNN "Number of Regulators"
 F14 "-4.2 V ~ -40 V" -10 -1015 50 H I C CNN "Voltage - Input"
 F15 "100mA" -10 -1095 50 H I C CNN "Current - Limit (Min)"
 DRAW
-T 0 0 -150 50 0 0 0 ADJ  Normal 0 C C
-T 0 -130 0 50 0 0 0 Vin  Normal 0 C C
-T 0 100 0 50 0 0 0 Vout  Normal 0 C C
+T 0 0 -150 50 0 0 0 ADJ Normal 0 C C
+T 0 -130 0 50 0 0 0 Vin Normal 0 C C
+T 0 100 0 50 0 0 0 Vout Normal 0 C C
 S -200 50 200 -200 0 0 0 N
 X Vout 1 300 0 100 L 50 50 1 1 I
 X Vin 2 -300 0 100 R 50 50 1 1 I
@@ -454,9 +478,9 @@ F13 "1" -10 -935 50 H I C CNN "Number of Regulators"
 F14 "Down to -40V" -10 -1015 50 H I C CNN "Voltage - Input"
 F15 "-" -10 -1095 50 H I C CNN "Current - Limit (Min)"
 DRAW
-T 0 0 -150 50 0 0 0 ADJ  Normal 0 C C
-T 0 -130 0 50 0 0 0 Vin  Normal 0 C C
-T 0 100 0 50 0 0 0 Vout  Normal 0 C C
+T 0 0 -150 50 0 0 0 ADJ Normal 0 C C
+T 0 -130 0 50 0 0 0 Vin Normal 0 C C
+T 0 100 0 50 0 0 0 Vout Normal 0 C C
 S -200 50 200 -200 0 0 0 N
 X ADJ 1 0 -300 100 U 50 50 1 1 I
 X Vin 2 -300 0 100 R 50 50 1 1 I
@@ -483,12 +507,12 @@ F12 "30V" 0 -650 50 H I C CNN "Voltage - Output (Max)"
 F13 "±1%" 0 -800 50 H I C CNN "Tolerance (%)"
 F14 "15mA" 0 -730 50 H I C CNN "Current - Output"
 DRAW
-P 2 0 1 0  -50 0  -25 0 N
-P 2 0 1 0  0 -110  0 -50 N
-P 2 0 1 0  0 95  0 50 N
-P 2 0 1 15  55 50  55 20 N
-P 3 0 1 15  55 50  -55 50  -55 80 N
-P 4 0 1 10  -50 -50  50 -50  0 50  -50 -50 N
+P 2 0 1 0 -50 0 -25 0 N
+P 2 0 1 0 0 -110 0 -50 N
+P 2 0 1 0 0 95 0 50 N
+P 2 0 1 15 55 50 55 20 N
+P 3 0 1 15 55 50 -55 50 -55 80 N
+P 4 0 1 10 -50 -50 50 -50 0 50 -50 -50 N
 X Cathode 3 0 195 100 D 50 50 1 1 I
 X Vref 4 -100 0 50 R 50 50 1 1 I
 X Anode 5 0 -200 100 U 50 50 1 1 I
@@ -515,9 +539,9 @@ F13 "1" -10 -935 50 H I C CNN "Number of Regulators"
 F14 "Up to 6V" -10 -1015 50 H I C CNN "Voltage - Input"
 F15 "-" -10 -1095 50 H I C CNN "Current - Limit (Min)"
 DRAW
-T 0 0 -150 50 0 0 0 GND  Normal 0 C C
-T 0 -130 0 50 0 0 0 Vin  Normal 0 C C
-T 0 100 0 50 0 0 0 Vout  Normal 0 C C
+T 0 0 -150 50 0 0 0 GND Normal 0 C C
+T 0 -130 0 50 0 0 0 Vin Normal 0 C C
+T 0 100 0 50 0 0 0 Vout Normal 0 C C
 S -200 50 200 -200 0 0 0 N
 X GND 1 0 -300 100 U 50 50 1 1 I
 X Vout 2 300 0 100 L 50 50 1 1 I
@@ -575,14 +599,14 @@ F18 "3A" -25 -1475 50 H I C CNN "Current - Output"
 F19 "900kHz" -30 -1585 50 H I C CNN "Frequency - Switching"
 F20 "Yes" -30 -1680 50 H I C CNN "Synchronous Rectifier"
 DRAW
-T 0 0 -250 50 0 0 0 AGND  Normal 0 C C
-T 0 -330 -100 50 0 0 0 EN  Normal 0 C C
-T 0 330 -100 50 0 0 0 FB  Normal 0 C C
-T 0 280 -250 50 0 0 0 PGND  Normal 0 C C
-T 0 320 200 50 0 0 0 SW  Normal 0 C C
-T 0 -280 -250 50 0 0 0 SYNC  Normal 0 C C
-T 0 -280 0 50 0 0 0 Vin_A  Normal 0 C C
-T 0 -250 200 50 0 0 0 Vin_SW  Normal 0 C C
+T 0 0 -250 50 0 0 0 AGND Normal 0 C C
+T 0 -330 -100 50 0 0 0 EN Normal 0 C C
+T 0 330 -100 50 0 0 0 FB Normal 0 C C
+T 0 280 -250 50 0 0 0 PGND Normal 0 C C
+T 0 320 200 50 0 0 0 SW Normal 0 C C
+T 0 -280 -250 50 0 0 0 SYNC Normal 0 C C
+T 0 -280 0 50 0 0 0 Vin_A Normal 0 C C
+T 0 -250 200 50 0 0 0 Vin_SW Normal 0 C C
 S -400 -300 400 250 0 0 0 N
 X Vin_a 1 -500 0 100 R 50 50 1 1 I
 X EN 2 -500 -100 100 R 50 50 1 1 I
@@ -614,12 +638,12 @@ F12 "Voltage - Output (Max)" 0 -650 50 H I C CNN "Voltage - Output (Max)"
 F13 "Tolerance" 0 -800 50 H I C CNN "Tolerance (%)"
 F14 "Current - Output" 0 -730 50 H I C CNN "Current - Output"
 DRAW
-P 2 0 1 0  -50 0  -25 0 N
-P 2 0 1 0  0 -110  0 -50 N
-P 2 0 1 0  0 95  0 50 N
-P 2 0 1 15  55 50  55 20 N
-P 3 0 1 15  55 50  -55 50  -55 80 N
-P 4 0 1 10  -50 -50  50 -50  0 50  -50 -50 N
+P 2 0 1 0 -50 0 -25 0 N
+P 2 0 1 0 0 -110 0 -50 N
+P 2 0 1 0 0 95 0 50 N
+P 2 0 1 15 55 50 55 20 N
+P 3 0 1 15 55 50 -55 50 -55 80 N
+P 4 0 1 10 -50 -50 50 -50 0 50 -50 -50 N
 X Cathode 1 0 195 100 D 50 50 1 1 I
 X Anode 2 0 -200 100 U 50 50 1 1 I
 X Vref ~ -100 0 50 R 50 50 1 1 I
@@ -645,12 +669,12 @@ F12 "36V" 0 -650 50 H I C CNN "Voltage - Output (Max)"
 F13 "±1%" 0 -800 50 H I C CNN "Tolerance (%)"
 F14 "100mA" 0 -730 50 H I C CNN "Current - Output"
 DRAW
-P 2 0 1 0  -50 0  -25 0 N
-P 2 0 1 0  0 -110  0 -50 N
-P 2 0 1 0  0 95  0 50 N
-P 2 0 1 15  55 50  55 20 N
-P 3 0 1 15  55 50  -55 50  -55 80 N
-P 4 0 1 10  -50 -50  50 -50  0 50  -50 -50 N
+P 2 0 1 0 -50 0 -25 0 N
+P 2 0 1 0 0 -110 0 -50 N
+P 2 0 1 0 0 95 0 50 N
+P 2 0 1 15 55 50 55 20 N
+P 3 0 1 15 55 50 -55 50 -55 80 N
+P 4 0 1 10 -50 -50 50 -50 0 50 -50 -50 N
 X Cathode 1 0 195 100 D 50 50 1 1 I
 X Vref 2 -100 0 50 R 50 50 1 1 I
 X Anode 3 0 -200 100 U 50 50 1 1 I

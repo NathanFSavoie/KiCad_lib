@@ -6,6 +6,13 @@ K Current Monitor High/Low-Side
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8211.pdf
 $ENDCMP
 #
+$CMP AL8860MP-13
+D LED Driver IC 1 Output DC DC Regulator Step-Down Analog, PWM Dimming 1.5A 8-MSOP-EP
+
+K LED Driver
+F http://www.diodes.com/_files/datasheets/AL8860.pdf
+$ENDCMP
+#
 $CMP AP1117IE33G-13
 D IC REG LDO 3.3V 1A SOT223-3
 K Positive Fixed
