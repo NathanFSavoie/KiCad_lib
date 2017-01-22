@@ -20,4 +20,10 @@ K Multilayer, Shielded
 F http://search.murata.co.jp/Ceramy/image/img/PDF/ENG/L0075S0104LQM31P_00.pdf
 $ENDCMP
 #
+$CMP SRR1208-470YL
+D FIXED IND 47UH 2.2A 85 MOHM SMD
+K Inductor
+F http://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf
+$ENDCMP
+#
 #End Doc Library
