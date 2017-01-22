@@ -26,4 +26,10 @@ K Inductor
 F http://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf
 $ENDCMP
 #
+$CMP SRR1280-101M
+D FIXED IND 100UH 2.1A 150 MOHM
+K Inductor
+F http://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf
+$ENDCMP
+#
 #End Doc Library
