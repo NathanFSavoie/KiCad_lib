@@ -32,4 +32,22 @@ K Inductor
 F http://www.bourns.com/docs/Product-Datasheets/SRR1208.pdf
 $ENDCMP
 #
+$CMP SRR4018-4R7Y
+D FIXED IND 4.7UH 1.72A 82 MOHM
+K Inductor
+F http://www.bourns.com/docs/Product-Datasheets/SRR4018.pdf
+$ENDCMP
+#
+$CMP SRR4028-151Y
+D FIXED IND 150UH 420MA 860 MOHM
+K Inductor
+F http://www.bourns.com/docs/Product-Datasheets/SRR4028.pdf
+$ENDCMP
+#
+$CMP SRR4028-3R3Y
+D FIXED IND 3.3UH 2.15A 35 MOHM
+K Inductor
+F http://www.bourns.com/docs/Product-Datasheets/SRR4028.pdf
+$ENDCMP
+#
 #End Doc Library
