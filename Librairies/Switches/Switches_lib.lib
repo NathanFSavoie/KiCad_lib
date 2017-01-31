@@ -1,6 +1,31 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# Tact_switch_SYMBOL
+#
+DEF Tact_switch_SYMBOL sw? 0 0 Y N 1 F N
+F0 "sw?" 0 300 60 H V C CNN
+F1 "Tact_switch_SYMBOL" 0 -400 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C -100 0 7 0 1 10 N
+C 100 0 7 0 1 10 N
+S -200 0 -100 0 0 1 0 N
+S -200 100 -200 -100 0 1 0 N
+S -150 100 150 100 0 1 10 N
+S -50 100 -50 200 0 1 0 N
+S 50 200 -50 200 0 1 0 N
+S 50 200 50 100 0 1 0 N
+S 200 0 100 0 0 1 0 N
+S 200 100 200 -100 0 1 0 N
+X 1 1 -400 100 200 R 50 50 1 1 I
+X 2 2 -400 -100 200 R 50 50 1 1 I
+X 3 3 400 100 200 L 50 50 1 1 I
+X 4 4 400 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Template_Lib
 #
 DEF Template_Lib U 0 40 Y Y 1 F N
