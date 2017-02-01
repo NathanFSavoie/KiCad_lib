@@ -1,13 +1,48 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 1825910-6
+#
+DEF ~1825910-6 SW? 0 0 Y N 1 F N
+F0 "SW?" 0 300 60 H V C CNN
+F1 "1825910-6" 0 -250 60 H I C CNN
+F2 "Switches:tactile_switch_6x6x5mm" 0 -850 60 H I C CNN
+F3 "D" 0 -950 60 H I C CNN
+F4 "Digikey" 0 -350 60 H I C CNN "Supplier"
+F5 "450-1650-ND" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "TE Connectivity ALCOSWITCH Switches" 0 -550 60 H I C CNN "Manufacturer"
+F7 "1825910-6" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "SWITCH TACTILE SPST-NO 0.05A 24V" 0 -750 60 H I C CNN "Description"
+DRAW
+C -100 0 7 0 1 10 N
+C 100 0 7 0 1 10 N
+S -200 0 -100 0 0 1 0 N
+S -200 100 -200 -100 0 1 0 N
+S -150 100 150 100 0 1 10 N
+S -50 100 -50 200 0 1 0 N
+S 50 200 -50 200 0 1 0 N
+S 50 200 50 100 0 1 0 N
+S 200 0 100 0 0 1 0 N
+S 200 100 200 -100 0 1 0 N
+X 1 1 -400 100 200 R 50 50 1 1 I
+X 2 2 -400 -100 200 R 50 50 1 1 I
+X 3 3 400 100 200 L 50 50 1 1 I
+X 4 4 400 -100 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Tact_switch_SYMBOL
 #
-DEF Tact_switch_SYMBOL sw? 0 0 Y N 1 F N
-F0 "sw?" 0 300 60 H V C CNN
-F1 "Tact_switch_SYMBOL" 0 -400 60 H V C CNN
-F2 "" 0 0 60 H I C CNN
-F3 "" 0 0 60 H I C CNN
+DEF ~Tact_switch_SYMBOL SW? 0 0 Y N 1 F N
+F0 "SW?" 0 300 60 H V C CNN
+F1 "Tact_switch_SYMBOL" 0 -250 60 H I C CNN
+F2 "F" 0 -850 60 H I C CNN
+F3 "D" 0 -950 60 H I C CNN
+F4 "Supplier" 0 -350 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -450 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -550 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -750 60 H I C CNN "Description"
 DRAW
 C -100 0 7 0 1 10 N
 C 100 0 7 0 1 10 N
