@@ -88,6 +88,12 @@ $CMP Header_Male_Pin_2.54mm_2X9_,_Unshrouded
 D Header Male Pin 2.54mm 2X5, Unshrouded
 $ENDCMP
 #
+$CMP PPPC192LFBN-RC
+D Header Female Pin 2.54mm 2X19
+K Header Female Pin 2.54mm 2X19
+F http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf
+$ENDCMP
+#
 $CMP Plug
 D Plug, Connection pour fil
 $ENDCMP
