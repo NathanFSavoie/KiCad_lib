@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF 2N7002 Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "2N7002" -250 -100 60 H V C CNN
-F2 "Circuit Integre:SOT-23-3" 100 -425 60 H I C CNN
+F2 "Circuit_Integre:SOT-23-3" 100 -425 60 H I C CNN
 F3 "" 50 770 60 H V C CNN
 $FPLIST
  SOT-23-3
@@ -37,7 +37,7 @@ ENDDEF
 DEF 2N7002P,215 Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "2N7002P,215" -330 -70 60 H V C CNN
-F2 "Circuit Integre:SOT-23-3" 100 -800 60 H I C CNN
+F2 "Circuit_Integre:SOT-23-3" 100 -800 60 H I C CNN
 F3 "http://www.nxp.com/documents/data_sheet/2N7002P.pdf" 50 -900 60 H I C CNN
 F4 "Digikey" 100 -400 60 H I C CNN "Supplier"
 F5 "568-5818-1-ND" 100 -500 60 H I C CNN "Supplier Part Number"
@@ -73,7 +73,7 @@ ENDDEF
 DEF IRF9630PBF Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "IRF9630PBF" -450 -100 60 H V C CNN
-F2 "Circuit Integre:TO-220" 100 -900 60 H I C CNN
+F2 "Circuit_Integre:TO-220" 100 -900 60 H I C CNN
 F3 "http://www.vishay.com/docs/91084/91084.pdf" 100 -1000 60 H I C CNN
 F4 "Digikey" 100 -400 60 H I C CNN "Supplier"
 F5 "	IRF9630PBF-ND" 100 -500 60 H I C CNN "Supplier Part Number"
@@ -108,7 +108,7 @@ ENDDEF
 DEF IRFB61N15DPBF Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "IRFB61N15DPBF" -500 -100 60 H V C CNN
-F2 "Circuit Integre:TO-220" 150 -900 60 H I C CNN
+F2 "Circuit_Integre:TO-220" 150 -900 60 H I C CNN
 F3 "http://www.irf.com/product-info/datasheets/data/irfb61n15dpbf.pdf" 150 -1000 60 H I C CNN
 F4 "Digikey" 150 -400 60 H I C CNN "Supplier"
 F5 " IRFB61N15DPBF-ND" 150 -500 60 H I C CNN "Supplier Part Number"
@@ -255,7 +255,7 @@ ENDDEF
 DEF SPB07N60S5ATMA1 Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "SPB07N60S5ATMA1" -500 -100 60 H V C CNN
-F2 "Circuit Integre:TO-263-3" 150 -900 60 H I C CNN
+F2 "Circuit_Integre:TO-263-3" 150 -900 60 H I C CNN
 F3 "http://www.infineon.com/dgdl/SPB07N60S5_Rev.2.3.pdf?folderId=db3a304412b407950112b408e8c90004&fileId=db3a304412b407950112b42d57bd485b" 150 -1000 60 H I C CNN
 F4 "Digikey" 150 -400 60 H I C CNN "Supplier"
 F5 "SPB07N60S5ATMA1CT-ND" 150 -500 60 H I C CNN "Supplier Part Number"

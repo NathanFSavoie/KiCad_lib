@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF AD8137YRZ U 0 0 N N 1 F N
 F0 "U" 0 340 60 H V C CNN
 F1 "AD8137YRZ" 0 -300 60 H V C CNN
-F2 "Circuit Integre:SOIC-8" 0 -880 60 H I C CNN
+F2 "Circuit_Integre:SOIC-8" 0 -880 60 H I C CNN
 F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD8137.pdf" -5 -980 60 H I C CNN
 F4 "Digikey" -5 -400 60 H I C CNN "Supplier"
 F5 "AD8137YRZ-ND" 0 -495 60 H I C CNN "Supplier Part Number"
@@ -44,7 +44,7 @@ ENDDEF
 DEF ADCMP350YKSZ U 0 0 N N 1 F N
 F0 "U" 100 150 60 H V C CNN
 F1 "ADCMP350YKSZ" 0 -300 60 H V C CNN
-F2 "Circuit Integre:SC70-4" 0 -900 60 H I C CNN
+F2 "Circuit_Integre:SC70-4" 0 -900 60 H I C CNN
 F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf" 0 -1000 60 H I C CNN
 F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
 F5 "ADCMP350YKSZ-REEL7CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
@@ -72,7 +72,7 @@ ENDDEF
 DEF ADCMP354YKSZ U 0 0 N N 1 F N
 F0 "U" 100 150 60 H V C CNN
 F1 "ADCMP354YKSZ" 0 -300 60 H V C CNN
-F2 "Circuit Integre:SC70-4" 0 -900 60 H I C CNN
+F2 "Circuit_Integre:SC70-4" 0 -900 60 H I C CNN
 F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf" 0 -1000 60 H I C CNN
 F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
 F5 "ADCMP354YKSZ-REEL7CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
@@ -126,7 +126,7 @@ ENDDEF
 DEF INA126UA/2K5 U 0 0 N N 1 F N
 F0 "U" -170 450 60 H V C CNN
 F1 "INA126UA/2K5" 0 -450 60 H V C CNN
-F2 "Circuit Integre:SOIC-8" 0 -1050 60 H I C CNN
+F2 "Circuit_Integre:SOIC-8" 0 -1050 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/ina126.pdf" 0 -1150 60 H I C CNN
 F4 "Digikey" 0 -550 60 H I C CNN "Supplier"
 F5 "296-31643-1-ND" 0 -650 60 H I C CNN "Supplier Part Number"
@@ -158,7 +158,7 @@ ENDDEF
 DEF INA827AIDGKR U 0 0 N N 1 F N
 F0 "U" -170 450 60 H V C CNN
 F1 "INA827AIDGKR" 0 -450 60 H V C CNN
-F2 "Circuit Integre:MSOP-8" 0 -1050 60 H I C CNN
+F2 "Circuit_Integre:MSOP-8" 0 -1050 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/ina827.pdf" 0 -1150 60 H I C CNN
 F4 "Digikey" 0 -550 60 H I C CNN "Supplier"
 F5 "296-30588-1-ND" 0 -650 60 H I C CNN "Supplier Part Number"
@@ -222,7 +222,7 @@ ENDDEF
 DEF LT1210CR U 0 0 N N 1 F N
 F0 "U" 130 150 60 H V C CNN
 F1 "LT1210CR" 0 -370 60 H V C CNN
-F2 "Circuit Integre:TO-263-8" 0 -970 60 H I C CNN
+F2 "Circuit_Integre:TO-263-8" 0 -970 60 H I C CNN
 F3 "http://cds.linear.com/docs/en/datasheet/1210fb.pdf" 0 -1070 60 H I C CNN
 F4 "Digikey" 0 -470 60 H I C CNN "Supplier"
 F5 "LT1210CR#PBF-ND" 0 -570 60 H I C CNN "Supplier Part Number"
@@ -256,7 +256,7 @@ ENDDEF
 DEF LT1228CS8 U 0 0 N N 1 F N
 F0 "U" -100 240 60 H V C CNN
 F1 "LT1228CS8" 30 -500 60 H V C CNN
-F2 "Circuit Integre:SOIC-8" 30 -1100 60 H I C CNN
+F2 "Circuit_Integre:SOIC-8" 30 -1100 60 H I C CNN
 F3 "http://cds.linear.com/docs/en/datasheet/1228fd.pdf" 30 -1200 60 H I C CNN
 F4 "Digikey" 30 -600 60 H I C CNN "Supplier"
 F5 "LT1228CS8#PBF-ND" 30 -700 60 H I C CNN "Supplier Part Number"
@@ -319,7 +319,7 @@ ENDDEF
 DEF OPA2171AIDR U 0 0 N N 2 F N
 F0 "U" 20 240 60 H V C CNN
 F1 "OPA2171AIDR" 0 -300 60 H V C CNN
-F2 "Circuit Integre:SOIC-8" 0 -950 60 H I C CNN
+F2 "Circuit_Integre:SOIC-8" 0 -950 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/opa2171.pdf" 0 -1050 60 H I C CNN
 F4 "Digikey" 0 -650 60 H I C CNN "Supplier"
 F5 "296-29091-1-ND" 0 -750 60 H I C CNN "Supplier Part Number"
@@ -352,7 +352,7 @@ ENDDEF
 DEF OPA861IDBVT U 0 0 N N 1 F N
 F0 "U" 200 250 60 H V C CNN
 F1 "OPA861IDBVT" 120 -400 60 H V C CNN
-F2 "Circuit Integre:SOT-23-6" -20 -1000 60 H I C CNN
+F2 "Circuit_Integre:SOT-23-6" -20 -1000 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/opa861.pdf" -20 -1100 60 H I C CNN
 F4 "Digikey" -20 -500 60 H I C CNN "Supplier"
 F5 "296-18700-1-ND" -20 -600 60 H I C CNN "Supplier Part Number"
@@ -386,7 +386,7 @@ ENDDEF
 DEF TL072ID U 0 0 Y N 2 F N
 F0 "U" 20 240 60 H V C CNN
 F1 "TL072ID" 0 -300 60 H V C CNN
-F2 "Circuit Integre:SOIC-8" 0 -950 60 H I C CNN
+F2 "Circuit_Integre:SOIC-8" 0 -950 60 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/tl071a.pdf" 0 -1050 60 H I C CNN
 F4 "Digikey" 0 -650 60 H I C CNN "Supplier"
 F5 "296-7194-5-ND" 0 -750 60 H I C CNN "Supplier Part Number"
