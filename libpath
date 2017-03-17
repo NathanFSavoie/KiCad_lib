@@ -14,6 +14,7 @@ LibName11=Librairies/Microcontroleur/Atmel_lib
 LibName12=Librairies/Microcontroleur/ST_lib
 LibName13=Librairies/Power management IC/PMIC_lib
 LibName14=Librairies/Power Port/Power_Port_lib
+LibName15=Librairies/Relais/Relais_lib
 LibName15=Librairies/Resistances/Resistances_lib
 LibName16=Librairies/Switches/Switches_lib
 LibName17=Librairies/Transformateurs/Transformateur_lib

@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +VBat
+K POWER, PWR
+$ENDCMP
+#
 $CMP +VRef
 K POWER, PWR
 $ENDCMP
