@@ -1,0 +1,132 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Bridge_Rectifier
+D Bridge Rectifier SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP Diode
+D Diode SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP LED
+D LED SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP Schottky
+D Schottky SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP TVS_Bidirectional
+D TVS Bidirectional SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP TVS_Unidirectional
+D TVS Unidirectional SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP Zener
+D Zener SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP 10A10
+D Rectifier Diode 
+K Rectifier Diode 10A
+F NA
+$ENDCMP
+#
+$CMP CPDQ12V0U-HF
+D TVS DIODE 12VWM 13.7VC SOD923F
+K General Purpose
+F http://www.comchiptech.com/cms/UserFiles/CPDQ12V0U-HF%20RevC903303.pdf
+$ENDCMP
+#
+$CMP ESD7951ST5G
+D TVS DIODE 5VWM 12.9VC SOD923
+K Automotive
+F http://www.onsemi.com/pub_link/Collateral/ESD7951S-D.PDF
+$ENDCMP
+#
+$CMP KBPC1010
+D Pont de Diode 10A
+K Rectifier Bridge 10A
+$ENDCMP
+#
+$CMP KBU1010
+D Pont de Diode
+K Rectifier Bridge
+$ENDCMP
+#
+$CMP LL4007
+D Rectifier Diode 
+K Rectifier Diode 1A
+F NA
+$ENDCMP
+#
+$CMP LL4148
+D Standard Small Signal Diode 
+K Standard Small Signal Diode 
+F NA
+$ENDCMP
+#
+$CMP NRVTS245ESFT1G
+D DIODE SCHOTTKY 45V 2A SOD123FL
+K Schottky Fast Recovery
+F http://www.onsemi.com/pub_link/Collateral/NRVTS245ESF-D.PDF
+$ENDCMP
+#
+$CMP P6KE8.2CA-E3/54
+D TVS DIODE 7.02VWM 12.1VC DO204AC
+K General Purpose
+F http://www.vishay.com/docs/88369/p6ke.pdf
+$ENDCMP
+#
+$CMP PMEG3050EP,115
+D DIODE SCHOTTKY 30V 5A SOD128
+K Schottky Fast Recovery
+F http://www.nxp.com/documents/data_sheet/PMEG3050EP.pdf
+$ENDCMP
+#
+$CMP STPS1L30U
+D DIODE SCHOTTKY 30V 1A SMB
+K Schottky Fast Recovery
+F http://www.st.com/web/en/resource/technical/document/datasheet/CD00001323.pdf
+$ENDCMP
+#
+$CMP UCLAMP3301H.TCT
+D TVS DIODE 3.3VWM 8VC SOD523
+K General Purpose
+F http://www.semtech.com/images/datasheet/uclamp3301h.pdf
+$ENDCMP
+#
+$CMP ZMM_3.0
+D 3V Zener Diode
+K 3V Zener Diode
+F NA
+$ENDCMP
+#
+$CMP ZMM_3.3
+D 3.3V Zener Diode
+K 3.3V Zener Diode
+F NA
+$ENDCMP
+#
+$CMP ZMM_4.7
+D 4.7V Zener Diode
+K 4.7V Zener Diode
+F NA
+$ENDCMP
+#
+$CMP ZMM_5.1
+D 5.1V Zener Diode
+K 5.1V Zener Diode
+F NA
+$ENDCMP
+#
+#End Doc Library

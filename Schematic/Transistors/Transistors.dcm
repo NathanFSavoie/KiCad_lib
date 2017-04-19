@@ -1,0 +1,53 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP N-Channel_MOSFET
+D N-Channel MOSFET SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP NPN
+D NPN Transistor SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP P-Channel_MOSFET
+D P-Channel MOSFET SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP PNP
+D PNP Transistor SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP 2N7002
+D MOSFET N-CH 60V 0.36A SOT-23
+K MOSFET N-Channel Logic Level Gate
+F http://www.nxp.com/documents/data_sheet/2N7002P.pdf
+$ENDCMP
+#
+$CMP 2N7002P,215
+D MOSFET N-CH 60V 0.36A SOT-23
+K MOSFET N-Channel Logic Level Gate
+F http://www.nxp.com/documents/data_sheet/2N7002P.pdf
+$ENDCMP
+#
+$CMP IRF9630PBF
+D MOSFET P-CH 200V 6.5A TO-220AB
+K MOSFET P-Channel, Metal Oxide
+F http://www.vishay.com/docs/91084/91084.pdf
+$ENDCMP
+#
+$CMP IRFB61N15DPBF
+D MOSFET N-CH 150V 60A TO-220AB
+K MOSFET N-Channel, Metal Oxide
+F http://www.irf.com/product-info/datasheets/data/irfb61n15dpbf.pdf
+$ENDCMP
+#
+$CMP SPB07N60S5ATMA1
+D MOSFET N-CH 600V 7.3A TO-263
+K MOSFET N-Channel, Metal Oxide
+F http://www.infineon.com/dgdl/SPB07N60S5_Rev.2.3.pdf?folderId=db3a304412b407950112b408e8c90004&fileId=db3a304412b407950112b42d57bd485b
+$ENDCMP
+#
+#End Doc Library
