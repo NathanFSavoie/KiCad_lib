@@ -1,3 +1,5 @@
+# eeschema
+
 LibDir=../../KiCad_lib/Schematic
 [eeschema/libraries]
 LibName1=ADC/ADC
@@ -21,3 +23,14 @@ LibName18=Sensors/Sensors
 LibName19=Switches/Switches
 LibName20=Transformers/Transformers
 LibName21=Transistors/Transistors
+
+# Footprint
+# Nickname      # Library Path
+Capacitors      $(KISYSMOD)/Capacitors.pretty
+Connectors      $(KISYSMOD)/Connectors.pretty
+Crystals        $(KISYSMOD)/Crystals.pretty
+Diodes          $(KISYSMOD)/Diodes.pretty
+IC              $(KISYSMOD)/IC.pretty
+Inductors       $(KISYSMOD)/Inductors.pretty
+Resistors       $(KISYSMOD)/Resistors.pretty
+Switches        $(KISYSMOD)/Switches.pretty

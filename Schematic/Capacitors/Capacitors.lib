@@ -416,4 +416,316 @@ X Negatif 2 -100 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# 885012007027
+#
+DEF ~885012007027 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "885012007027" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7826-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012007027" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 6.8PF 25V C0G/NP0 0805" -50 -850 60 H I C CNN "Description"
+F9 "6.8pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±0.5pF" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 885012007053
+#
+DEF ~885012007053 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "885012007053" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7848-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012007053" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 22PF 50V C0G/NP0 0805" -50 -850 60 H I C CNN "Description"
+F9 "22pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±5%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 885012107015
+#
+DEF ~885012107015 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "885012107015" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7625-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012107015" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 1UF 25V X5R 0805" -50 -850 60 H I C CNN "Description"
+F9 "1µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 885012107018
+#
+DEF ~885012107018 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "885012107018" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-7628-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012107018" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 4.7UF 25V X5R 0805" -50 -850 60 H I C CNN "Description"
+F9 "4.7µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 885012207092
+#
+DEF ~885012207092 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "885012207092" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-8074-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012207092" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 10000PF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "10nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 885012207098
+#
+DEF ~885012207098 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "885012207098" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "732-8080-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "885012207098" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "100nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CL21B103KBANNNC
+#
+DEF ~CL21B103KBANNNC C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "CL21B103KBANNNC" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B103KBANNNC.pdf" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "1276-1015-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Samsung Electro-Mechanics America, Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "CL21B103KBANNNC" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 10000PF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "10nF" -25 -125 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -225 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CL21B104MBCNNNC
+#
+DEF ~CL21B104MBCNNNC C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "CL21B104MBCNNNC" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B104MBCNNNC.pdf" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "1276-2450-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Samsung Electro-Mechanics America, Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "CL21B104MBCNNNC" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "100nF" -25 -125 50 H V C CNN "Capacitance (Farad)"
+F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -225 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CL21B105KPFNNNE
+#
+DEF ~CL21B105KPFNNNE C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "CL21B105KPFNNNE" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B105KPFNNNE.pdf" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "1276-1275-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Samsung Electro-Mechanics America, Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "CL21B105KPFNNNE" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 1UF 10V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "1µF" -25 -125 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "10V" -50 -225 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CL21B475KPFNNNE
+#
+DEF ~CL21B475KPFNNNE C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "CL21B475KPFNNNE" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B475KPFNNNE.pdf" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "1276-2972-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Samsung Electro-Mechanics America, Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "CL21B475KPFNNNE" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 4.7UF 10V X7R 0805" -50 -850 60 H I C CNN "Description"
+F9 "4.7µF" -25 -125 50 H V C CNN "Capacitance (Farad)"
+F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "10V" -50 -225 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CL21C220JBANNNC
+#
+DEF ~CL21C220JBANNNC C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "CL21C220JBANNNC" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "1276-1047-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Samsung Electro-Mechanics America, Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "CL21C220JBANNNC" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 22PF 50V C0G/NP0 0805" -50 -850 60 H I C CNN "Description"
+F9 "22pF" -25 -125 50 H V C CNN "Capacitance (Farad)"
+F10 "±5%" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -225 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CL21C6R8DBANNNC
+#
+DEF ~CL21C6R8DBANNNC C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "CL21C6R8DBANNNC" -50 -350 60 H I C CNN
+F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "1276-2689-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Samsung Electro-Mechanics America, Inc." -50 -650 60 H I C CNN "Manufacturer"
+F7 "CL21C6R8DBANNNC" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 6.8PF 50V C0G/NP0 0805" -50 -850 60 H I C CNN "Description"
+F9 "6.8pF" -25 -125 50 H V C CNN "Capacitance (Farad)"
+F10 "±0.5pF" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -225 50 H I C CNN "Voltage Rated (Volt)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
