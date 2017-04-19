@@ -126,4 +126,16 @@ K VREF SHUNT Adjustable
 F http://www.ti.com/lit/ds/symlink/tl431a.pdf
 $ENDCMP
 #
+$CMP OKI-78SR-5/1.5-W36-C
+D DC/DC CONVERTER 5V 8W
+K Linear Regulator Replacement, Vertical
+F http://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
+$CMP OKI-78SR-5/1.5-W36H-C
+D DC/DC CONVERTER 5V 8W
+K Linear Regulator Replacement, Horizontal
+F http://power.murata.com/data/power/oki-78sr.pdf
+$ENDCMP
+#
 #End Doc Library
