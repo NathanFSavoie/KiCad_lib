@@ -152,62 +152,6 @@ X +Input 8 -300 100 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# ADCMP350YKSZ
-#
-DEF ADCMP350YKSZ U 0 0 N N 1 F N
-F0 "U" 100 150 60 H V C CNN
-F1 "ADCMP350YKSZ" 0 -300 60 H V C CNN
-F2 "IC:SC70-4" 0 -900 60 H I C CNN
-F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf" 0 -1000 60 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "ADCMP350YKSZ-REEL7CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Analog Devices Inc." 0 -600 60 H I C CNN "Manufacturer"
-F7 "ADCMP350YKSZ-REEL7" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "IC COMP/REF OD ACTIVE LOW SC70-4" 0 -800 60 H I C CNN "Description"
-DRAW
-T 0 -340 100 40 0 0 0 REF  Normal 0 C C
-T 0 0 60 40 0 0 0 Vcc  Normal 0 C C
-S -410 140 -260 60 0 0 0 N
-P 2 0 0 0  -260 100  -200 100 N
-P 2 0 1 0  -170 -100  -110 -100 N
-P 2 0 1 0  -170 100  -110 100 N
-P 2 0 1 0  -140 130  -140 70 N
-P 4 0 1 10  -200 200  -200 -200  200 0  -200 200 N
-X Vin 1 -300 -100 100 R 50 50 1 1 I
-X GND 2 0 -200 100 U 50 50 1 1 O
-X Output 3 300 0 100 L 50 50 1 1 I
-X Vcc 4 0 200 100 D 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
-# ADCMP354YKSZ
-#
-DEF ADCMP354YKSZ U 0 0 N N 1 F N
-F0 "U" 100 150 60 H V C CNN
-F1 "ADCMP354YKSZ" 0 -300 60 H V C CNN
-F2 "IC:SC70-4" 0 -900 60 H I C CNN
-F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf" 0 -1000 60 H I C CNN
-F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
-F5 "ADCMP354YKSZ-REEL7CT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
-F6 "Analog Devices Inc." 0 -600 60 H I C CNN "Manufacturer"
-F7 "ADCMP354YKSZ-REEL7" 0 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "	IC COMP/REF OD ACTIVE HI SC70-4" 0 -800 60 H I C CNN "Description"
-DRAW
-T 0 -340 -100 40 0 0 0 REF  Normal 0 C C
-T 0 -10 50 40 0 0 0 Vcc  Normal 0 C C
-S -410 -60 -260 -140 0 0 0 N
-P 2 0 0 0  -260 -100  -200 -100 N
-P 2 0 1 0  -170 -100  -110 -100 N
-P 2 0 1 0  -170 100  -110 100 N
-P 2 0 1 0  -140 130  -140 70 N
-P 4 0 1 10  -200 200  -200 -200  200 0  -200 200 N
-X Vin 1 -300 100 100 R 50 50 1 1 I
-X GND 2 0 -200 100 U 50 50 1 1 O
-X Output 3 300 0 100 L 50 50 1 1 I
-X Vcc 4 0 200 100 D 50 50 1 1 O
-ENDDRAW
-ENDDEF
-#
 # INA126UA/2K5
 #
 DEF INA126UA/2K5 U 0 0 N N 1 F N
