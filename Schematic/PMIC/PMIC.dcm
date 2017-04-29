@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AP3012KTR-G1
+D IC REG BOOST ADJ 0.5A SOT-23-5
+K BOOST
+F https://www.diodes.com/assets/Datasheets/AP3012.pdf
+$ENDCMP
+#
 $CMP AZ1117IH-3.3TRG1
 D IC REG LDO 3.3V 0.8A SOT223
 K LDO 3.3V 800mA
