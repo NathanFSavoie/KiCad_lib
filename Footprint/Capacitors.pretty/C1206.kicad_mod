@@ -1,6 +1,6 @@
 (module C1206 (layer F.Cu) (tedit 564582A6)
   (fp_text reference REF** (at 1.79 -2.05) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
+    (effects (font (size 1.27 1.27) (thickness 0.2032)))
   )
   (fp_text value C1206 (at 1.73 2.33) (layer F.Fab) hide
     (effects (font (size 1.27 1.27) (thickness 0.254)))

@@ -10,16 +10,4 @@ D Op Amp SYMBOL
 K SYMBOL
 $ENDCMP
 #
-$CMP ADCMP350YKSZ
-D IC COMP/REF OD ACTIVE LOW SC70-4
-K Comparateur avec Reference
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
-$ENDCMP
-#
-$CMP ADCMP354YKSZ
-D IC COMP/REF OD ACTIVE HI SC70-4
-K Comparateur avec Reference
-F http://www.analog.com/media/en/technical-documentation/data-sheets/ADCMP350_354_356.pdf
-$ENDCMP
-#
 #End Doc Library

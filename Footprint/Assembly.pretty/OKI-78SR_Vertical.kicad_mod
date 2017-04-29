@@ -1,9 +1,9 @@
 (module OKI-78SR_Vertical (layer F.Cu) (tedit 58F78B4A)
   (fp_text reference REF** (at 1.27 2.54) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 1 1) (thickness 0.2032)))
   )
   (fp_text value OKI-78SR_Vertical (at 0 7.112) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
+    (effects (font (size 1 1) (thickness 0.2032)))
   )
   (fp_line (start -5.45 -5.6) (end -5.45 3.7) (layer F.SilkS) (width 0.15))
   (fp_line (start -5.45 3.7) (end 5.45 3.7) (layer F.SilkS) (width 0.15))

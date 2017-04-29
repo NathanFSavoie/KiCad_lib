@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 39511000440
+D FUSE BOARD MNT 1A 125VAC RADIAL
+K Fast Blow, Radial, Box
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf
+$ENDCMP
+#
 $CMP Fuse
 D Fuse SYMBOL
 K SYMBOL

@@ -1,5 +1,55 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 885012007027
+D CAP CER 6.8PF 25V C0G/NP0 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012007053
+D CAP CER 22PF 50V C0G/NP0 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012107005
+D CAP CER 22UF 6.3V X5R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012107014
+D CAP CER 10UF 16V X5R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012107015
+D CAP CER 1UF 25V X5R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012107018
+D CAP CER 4.7UF 25V X5R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207080
+D CAP CER 100PF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207086
+D CAP CER 1nF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207092
+D CAP CER 10nF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
+$CMP 885012207098
+D CAP CER 0.1UF 100nF 50V X7R 0805
+K General Purpose, Wurth
+$ENDCMP
+#
 $CMP Capacitor
 D Capacitor SYMBOL
 K SYMBOL
@@ -18,139 +68,6 @@ $ENDCMP
 $CMP Capacitor_Polarised
 D Capacitor Generic Polarised SYMBOL
 K SYMBOL
-$ENDCMP
-#
-#
-$CMP 380LX562M080K452
-D CAP ALUM 5600UF 20% 80V SNAP
-K General Purpose
-F http://www.cde.com/resources/catalogs/380-382.pdf
-$ENDCMP
-#
-$CMP 381LX822M050K452
-D CAP ALUM 8200UF 20% 50V SNAP
-K General Purpose
-F http://www.cde.com/resources/catalogs/381-383.pdf
-$ENDCMP
-#
-$CMP C3216JB0J686M160AB
-D CAP CER 68UF 6.3V JB 1206
-K General Purpose
-F https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf
-$ENDCMP
-#
-$CMP EDK106M050A9GAA
-D CAP ALUM 10UF 20% 50V SMD
-K General Purpose
-F http://www.kemet.com/Lists/ProductCatalog/Attachments/273/KEM_A4001_EDK.pdf
-$ENDCMP
-#
-$CMP EKYB250ELL122MJ25S
-D CAP ALUM 1200UF 20% 25V RADIAL
-K General Purpose
-F http://www.chemi-con.co.jp/cgi-bin/CAT_DB/SEARCH/cat_db_al.cgi?e=e&j=p&pdfname=kyb
-$ENDCMP
-#
-$CMP EMK325F226ZN-T
-D CAP CER 22UF 16V Y5V 1210
-K General Purpose
-F NA
-$ENDCMP
-#
-$CMP GMK316F475ZG-T
-D CAP CER 4.7UF 35V Y5V 1206
-K General Purpose
-F NA
-$ENDCMP
-#
-$CMP LGU2E331MELY
-D CAP ALUM 330UF 20% 250V SNAP
-K General Purpose
-F http://nichicon-us.com/english/products/pdfs/e-lgu.pdf
-$ENDCMP
-#
-$CMP LMK316F226ZL-T
-D CAP CER 22UF 10V Y5V 1206
-K General Purpose
-F NA
-$ENDCMP
-#
-$CMP PCF1A471MCL1GS
-D CAP POLYMER 470UF 20% 10V SMD
-K General Purpose
-F http://nichicon-us.com/english/products/pdfs/e-cf.pdf
-$ENDCMP
-#
-$CMP RPS1C560MCN1GS
-D CAP POLYMER 56UF 20% 16V SMD
-K General Purpose
-F http://nichicon-us.com/english/products/pdfs/e-cf.pdf
-$ENDCMP
-#
-$CMP 885012007027
-D CAP CER 6.8PF 25V C0G/NP0 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012007053
-D CAP CER 22PF 50V C0G/NP0 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012107015
-D CAP CER 1UF 25V X5R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012107018
-D CAP CER 4.7UF 25V X5R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012207092
-D CAP CER 10nF 50V X7R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012207098
-D CAP CER 0.1UF 100nF 50V X7R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP CL21B103KBANNNC
-D CAP CER 10nF 50V X7R 0805
-K General Purpose
-F http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B103KBANNNC.pdf
-$ENDCMP
-#
-$CMP CL21B104MBCNNNC
-D CAP CER 0.1UF 100nF 50V X7R 0805
-K General Purpose
-F http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B104MBCNNNC.pdf
-$ENDCMP
-#
-$CMP CL21B105KPFNNNE
-D CAP CER 1UF 10V X7R 0805
-K General Purpose
-F http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B105KPFNNNE.pdf
-$ENDCMP
-#
-$CMP CL21B475KPFNNNE
-D CAP CER 4.7UF 10V X7R 0805
-K General Purpose
-F http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2016/08/18/S_CL21B475KPFNNNE.pdf
-$ENDCMP
-#
-$CMP CL21C220JBANNNC
-D CAP CER 22PF 50V C0G/NP0 0805
-K General Purpose
-F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
-$ENDCMP
-#
-$CMP CL21C6R8DBANNNC
-D CAP CER 6.8PF 50V C0G/NP0 0805
-K General Purpose
-F https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL_Series_MLCC_ds.pdf
 $ENDCMP
 #
 #End Doc Library
