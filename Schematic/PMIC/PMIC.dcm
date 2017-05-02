@@ -33,6 +33,12 @@ D DC-DC_Switching_Regulators_INFO
 K INFO
 $ENDCMP
 #
+$CMP INA219BIDR
+D IC MONITOR PWR/CURR BIDIR 8-SOIC
+K Current Monitor Bidirectional
+F http://www.ti.com/lit/ds/symlink/ina219.pdf
+$ENDCMP
+#
 $CMP OKI-78SR-5/1.5-W36-C
 D DC/DC CONVERTER 5V 8W
 K Linear Regulator Replacement, Vertical
