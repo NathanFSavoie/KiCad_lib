@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AL8860MP-13
+D IC LED DRVR 8MSOP
+K LED Driver
+F https://www.diodes.com/assets/Datasheets/AL8860.pdf
+$ENDCMP
+#
 $CMP AP3012KTR-G1
 D IC REG BOOST ADJ 0.5A SOT-23-5
 K BOOST
