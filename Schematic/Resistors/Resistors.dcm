@@ -29,6 +29,12 @@ K Thick Film, Moisture Resistant
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf
 $ENDCMP
 #
+$CMP RC0805JR-0710KL
+D RES SMD 10K OHM 5% 1/8W 0805
+K Thick Film, Moisture Resistant
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf
+$ENDCMP
+#
 $CMP RC0805JR-071KL
 D RES SMD 1K OHM 5% 1/8W 0805
 K Thick Film, Moisture Resistant
