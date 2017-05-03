@@ -165,6 +165,44 @@ DRAW
 ENDDRAW
 ENDDEF
 #
+# INA219BIDR
+#
+DEF INA219BIDR U 0 0 Y N 1 F N
+F0 "U" 0 400 60 H V C CNN
+F1 "INA219BIDR" -10 -100 60 H V C CNN
+F2 "IC:SOIC-8" 10 -1190 60 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" 10 -1290 60 H I C CNN
+F4 "Digikey" 10 -690 60 H I C CNN "Supplier"
+F5 "296-27899-1-ND" 10 -790 60 H I C CNN "Supplier Part Number"
+F6 "Texas Instruments" 10 -890 60 H I C CNN "Manufacturer"
+F7 "INA219BIDR" 10 -990 60 H I C CNN "Manufacturer Part Number"
+F8 "IC MONITOR PWR/CURR BIDIR 8-SOIC" 10 -1090 60 H I C CNN "Description"
+F9 "Current Monitor" 0 -200 50 H I C CNN "Function"
+F10 "High-Side" 0 -280 50 H I C CNN "Sensing Method"
+F11 "±0.5%" 0 -360 50 H I C CNN "Accuracy"
+F12 "0 V ~ 26 V" 0 -450 50 H I C CNN "Voltage - Input"
+F13 "10mA" 10 -525 50 H I C CNN "Current - Output"
+DRAW
+T 0 200 100 50 0 0 0 A0 Normal 0 C C
+T 0 200 0 50 0 0 0 A1 Normal 0 C C
+T 0 -200 0 50 0 0 0 GND Normal 0 C C
+T 0 -200 300 50 0 0 0 IN+ Normal 0 C C
+T 0 -200 200 50 0 0 0 IN- Normal 0 C C
+T 0 200 200 50 0 0 0 SCL Normal 0 C C
+T 0 200 300 50 0 0 0 SDA Normal 0 C C
+T 0 -200 100 50 0 0 0 Vs Normal 0 C C
+S -300 350 300 -50 0 0 0 N
+X A1 1 500 0 200 L 50 50 1 1 I
+X A0 2 500 100 200 L 50 50 1 1 I
+X SDA 3 500 300 200 L 50 50 1 1 I
+X SCL 4 500 200 200 L 50 50 1 1 I
+X Vs 5 -500 100 200 R 50 50 1 1 I
+X GND 6 -500 0 200 R 50 50 1 1 I
+X IN- 7 -500 200 200 R 50 50 1 1 I
+X IN+ 8 -500 300 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # OKI-78SR-5/1.5-W36-C
 #
 DEF OKI-78SR-5/1.5-W36-C U 0 0 Y N 1 F N

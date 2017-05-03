@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP STM32F051K4T6
+D STM32F051K4T6
+K mcu, 32-Bit
+F http://www.st.com/content/ccc/resource/technical/document/datasheet/55/53/3e/86/29/61/41/d9/DM00039193.pdf/files/DM00039193.pdf/jcr:content/translations/en.DM00039193.pdf
+$ENDCMP
+#
 $CMP STM32F446RE
 D STM32F446RE
 K mcu, 32-Bit
