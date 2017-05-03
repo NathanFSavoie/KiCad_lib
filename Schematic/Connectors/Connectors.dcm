@@ -24,6 +24,12 @@ K Wire to Board Terminal Block, COMBICON PT
 F https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf
 $ENDCMP
 #
+$CMP 1935187
+D TERM BLOCK PCB 4POS 5.0MM GREEN
+K Wire to Board Terminal Block, COMBICON PT
+F https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf
+$ENDCMP
+#
 $CMP Header_Male_Pin_2.54mm_1X10_,_Unshrouded
 D Header Male Pin 2.54mm 1X10, Unshrouded
 $ENDCMP
