@@ -57,6 +57,25 @@ X CAN_L 5 200 -200 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# 1935161
+#
+DEF ~1935161 J 0 0 Y N 1 F N
+F0 "J" -100 200 60 H V C CNN
+F1 "1935161" 0 -320 50 H I C CNN
+F2 "F" 0 -910 30 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "277-1667-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Phoenix Contact" 0 -610 60 H I C CNN "Manufacturer"
+F7 "1935161" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TERM BLOCK PCB 2POS 5.0MM GREEN" 0 -810 60 H I C CNN "Description"
+DRAW
+S -150 150 0 -50 0 0 0 N
+X ~ 1 100 0 100 L 50 40 1 1 P
+X ~ 2 100 100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Header_Male_Pin_2.54mm_1X10_,_Unshrouded
 #
 DEF ~Header_Male_Pin_2.54mm_1X10_,_Unshrouded J 0 0 Y N 1 F N

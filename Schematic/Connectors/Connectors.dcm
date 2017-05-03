@@ -12,6 +12,12 @@ K M12-5, Receptacle
 F https://www.phoenixcontact.com/online/portal/us/pxc/content_pages_service_and_support_downloads/!ut/p/b1/vVTLkqJAEPyW-QCkG0HhCIJIIy95cyEQGITmJTCCfv26XnYvs3PZsOpUERmRlVGZRUZkSEAAKY6j1xxHBmTUJreySKaya5P69xxtYkdwJMmkNtCwGAEoIrOTjvQJmuyW9MnASedF7KxC4kV-gotgB2dU5siZRGkc0F4qrErltj5oqL64TO2--RplzO6GVHDChrdyfZjHT30rsL5aBezVSx_XwUJcskYmZFydbon77gJwNLjN7cjjbY1ghZvILeAJN0rTxTNbHdQzd8AqDUv-47l0-P3SBx7-pCl8ArYxJ-sbQNEbCPYWA3iBstBWdRRFpkmHDAAd29W9Vx74caoeNtBET9cwPEIX3DXxYOlubTiZCkfRAvDhaSO-6I7bq1qlURPnmJl3cgWex2oe6D8Rbt5NyLyZkH23wueR30to_H-FiIzKc7Oa02YFVv2SrtKunfJ2ivukyMd4zIdbmeZx0mbx-NX33TDFWTe3dZdkI-m9QjsqsyiJp3HtzH57a5Di1-lFOyqlR9XHEq_RRilzMMWEIXNMtr1ZklA5Bz9DFvR5eWNPoeGhad9plRFf8W4vLRk0D8tM-DQfwSzTozsveAaG68SYg8jPzfwBrxMRPEIgzymxsIvJfNY7auywXXw8n0n0r2y-ovsCgG-KB6Sdt7Frx2awc21SP3RN_pPb_3iBHbRjWiFHo0c2haadrk_Vfe5VvPaEuWtRn2Hm67M_LUmLLmEdEVXr99bAFzv7WomQbKLhTiR_9RlUtFx8_AINBWEx/?uri=pxc-oc-itemdetail:pid=1694240&library=usen&pcck=&tab=5#General
 $ENDCMP
 #
+$CMP 1935161
+D TERM BLOCK PCB 2POS 5.0MM GREEN
+K Wire to Board Terminal Block, COMBICON PT
+F https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf
+$ENDCMP
+#
 $CMP Header_Male_Pin_2.54mm_1X10_,_Unshrouded
 D Header Male Pin 2.54mm 1X10, Unshrouded
 $ENDCMP
