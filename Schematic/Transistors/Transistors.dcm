@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N7002P,215
+D MOSFET N-CH 60V 0.36A SOT-23
+K N-Channel
+F http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf
+$ENDCMP
+#
 $CMP N-Channel_MOSFET
 D N-Channel MOSFET SYMBOL
 K SYMBOL
