@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF ~CT-6EP VR 0 0 Y N 1 F N
 F0 "VR" -160 140 60 H V C CNN
 F1 "CT-6EP" 0 -320 50 H I C CNN
-F2 "CT6EP" 0 -910 30 H I C CNN
+F2 "Resistors:CT6EP" 0 -910 30 H I C CNN
 F3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf" 0 -960 30 H I C CNN
 F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
 F5 "Supplier Part Number" 0 -410 60 H I C CNN "Supplier Part Number"
@@ -16,6 +16,34 @@ F8 "TRIMMER" 0 -810 60 H I C CNN "Description"
 F9 "Resistance" 430 130 50 H V C CNN "Resistance (Ohms)"
 F10 "Puissance" 420 70 50 H V C CNN "Puissance (Watts)"
 F11 "Tolerance" 820 130 50 H V C CNN "Tolerance (%)"
+DRAW
+T 0 110 0 50 0 0 0 CW Normal 0 C C
+P 5 0 0 0 110 -50 110 -200 90 -180 130 -180 110 -200 N
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X 1 1 0 200 50 D 50 50 1 1 P
+X 2 2 -200 0 50 R 50 50 1 1 P
+X 3 3 0 -200 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CT6EP103
+#
+DEF ~CT6EP103 VR 0 0 Y N 1 F N
+F0 "VR" -160 140 60 H V C CNN
+F1 "CT6EP103" 0 -320 50 H I C CNN
+F2 "Resistors:CT6EP" 0 -910 30 H I C CNN
+F3 "https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf" 0 -960 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "CT6EP103-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "Copal Electronics Inc." 0 -610 60 H I C CNN "Manufacturer"
+F7 "CT6EP103" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "TRIMMER 10K OHM 0.5W TH" 0 -810 60 H I C CNN "Description"
+F9 "10k" -150 50 50 H V C CNN "Resistance (Ohms)"
+F10 "0.5W" 300 50 50 H I C CNN "Puissance (Watts)"
+F11 "±10%" 300 -50 50 H I C CNN "Tolerance (%)"
 DRAW
 T 0 110 0 50 0 0 0 CW Normal 0 C C
 P 5 0 0 0 110 -50 110 -200 90 -180 130 -180 110 -200 N

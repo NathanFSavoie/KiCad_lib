@@ -6,6 +6,12 @@ K CT-6EP
 F https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf
 $ENDCMP
 #
+$CMP CT6EP103
+D TRIMMER 10K OHM 0.5W TH
+K CT-6EP, TRIMMER 10k
+F https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf
+$ENDCMP
+#
 $CMP Potentiometer
 D Potentiometer SYMBOL
 K SYMBOL
