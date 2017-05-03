@@ -10,6 +10,12 @@ D Instrumentation Op Amp SYMBOL
 K SYMBOL
 $ENDCMP
 #
+$CMP LM7321MF/NOPB
+D IC OPAMP GP 20MHZ RRO SOT23-5
+K General Purpose, Unlimited Capacitive Load
+F http://www.ti.com/lit/ds/symlink/lm7321.pdf
+$ENDCMP
+#
 $CMP OP-AMP
 D Op Amp SYMBOL
 K SYMBOL
