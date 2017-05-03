@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CT-6EP
+D CT-6EP Series Generic
+K CT-6EP
+F https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf
+$ENDCMP
+#
 $CMP Potentiometer
 D Potentiometer SYMBOL
 K SYMBOL
