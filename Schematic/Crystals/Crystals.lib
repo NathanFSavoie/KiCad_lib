@@ -14,7 +14,7 @@ F6 "Abracon LLC" 0 -600 60 H I C CNN "Manufacturer"
 F7 "ABLS-8.000MHZ-D-T" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "CRYSTAL 8.0000MHZ 18PF SMD" 0 -800 60 H I C CNN "Description"
 DRAW
-S -40 120 40 -120 1 1 10 N
+S -40 120 40 -120 1 1 10 f
 P 2 1 1 0 -100 0 -70 0 N
 P 2 1 1 0 100 0 70 0 N
 P 3 1 1 0 -70 100 -70 0 -70 -100 N
@@ -37,7 +37,7 @@ F6 "Abracon LLC" 0 -600 60 H I C CNN "Manufacturer"
 F7 "ABS25-32.768KHZ-6-T" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "CRYSTAL 32.7680KHZ 6PF SMD" 0 -800 60 H I C CNN "Description"
 DRAW
-S -40 120 40 -120 1 1 10 N
+S -40 120 40 -120 1 1 10 f
 P 2 1 1 0 -100 0 -70 0 N
 P 2 1 1 0 100 0 70 0 N
 P 3 1 1 0 -70 100 -70 0 -70 -100 N
@@ -62,7 +62,7 @@ F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "Description" 0 -800 60 H I C CNN "Description"
 DRAW
-S -40 120 40 -120 1 1 10 N
+S -40 120 40 -120 1 1 10 f
 P 2 1 1 0 -100 0 -70 0 N
 P 2 1 1 0 100 0 70 0 N
 P 3 1 1 0 -70 100 -70 0 -70 -100 N

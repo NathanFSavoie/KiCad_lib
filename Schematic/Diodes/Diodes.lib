@@ -17,7 +17,7 @@ F9 "BLUE" 0 -300 60 H I C CNN "Color"
 F10 "3.2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
 DRAW
 P 2 0 1 15 0 -50 0 50 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
 X Cathode 1 100 0 100 L 50 50 1 1 I
@@ -41,7 +41,7 @@ F9 "RED" 0 -300 60 H I C CNN "Color"
 F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
 DRAW
 P 2 0 1 15 0 -50 0 50 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
 X Cathode 1 100 0 100 L 50 50 1 1 I
@@ -65,7 +65,7 @@ F9 "GREEN" 0 -300 60 H I C CNN "Color"
 F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
 DRAW
 P 2 0 1 15 0 -50 0 50 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
 X Cathode 1 100 0 100 L 50 50 1 1 I
@@ -89,7 +89,7 @@ F9 "YELLOW" 0 -300 60 H I C CNN "Color"
 F10 "2V" 0 -400 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
 DRAW
 P 2 0 1 15 0 -50 0 50 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
 X Cathode 1 100 0 100 L 50 50 1 1 I
@@ -139,7 +139,7 @@ F6 "Diodes Incorporated" 0 -720 60 H I C CNN "Manufacturer"
 F7 "D1213A-02SOL-7" 0 -820 60 H I C CNN "Manufacturer Part Number"
 F8 "TVS DIODE 3.3VWM 10VC SOT23" 0 -920 60 H I C CNN "Description"
 DRAW
-S -200 -150 200 150 0 1 0 N
+S -200 -150 200 150 0 1 0 f
 P 2 0 1 0 -140 0 -30 0 N
 P 2 0 1 0 -100 -90 -100 -50 N
 P 2 0 1 0 -100 40 -100 80 N
@@ -183,7 +183,7 @@ F7 "Manufacturer Part Number" 0 -820 60 H I C CNN "Manufacturer Part Number"
 F8 "Description" 0 -920 60 H I C CNN "Description"
 DRAW
 P 2 0 1 15 0 -50 0 50 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 X Cathode 1 100 0 100 L 50 50 1 1 I
 X Anode 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW
@@ -202,10 +202,10 @@ F6 "Manufacturer" 10 -780 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 10 -880 60 H I C CNN "Manufacturer Part Number"
 F8 "Description" 10 -980 60 H I C CNN "Description"
 F9 "C" 0 -300 60 H I C CNN "Color"
-F10 "Voltage - Forward (Vf) (Typ)" 650 850 60 H V C CNN "Voltage - Forward (Vf) (Typ)"
+F10 "Voltage - Forward (Vf) (Typ)" 0 -1250 60 H I C CNN "Voltage - Forward (Vf) (Typ)"
 DRAW
 P 2 0 1 15 0 -50 0 50 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 5 0 1 10 -85 -70 -30 -125 -40 -95 -60 -115 -30 -125 F
 P 5 0 1 10 -25 -65 30 -120 0 -110 20 -90 30 -120 F
 X Cathode 1 100 0 100 L 50 50 1 1 I
@@ -227,7 +227,7 @@ F7 "Manufacturer Part Number" -20 -800 60 H I C CNN "Manufacturer Part Number"
 F8 "Description" -20 -900 60 H I C CNN "Description"
 DRAW
 P 3 0 1 15 0 -60 -25 -60 -25 -40 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 P 4 0 1 15 0 -60 0 60 25 60 25 40 N
 X Cathode 1 100 0 100 L 50 50 1 1 I
 X Anode 2 -200 0 100 R 50 50 1 1 I
@@ -250,8 +250,8 @@ F9 "V" 0 -250 60 H I C CNN "Voltage - Breakdown (Min)"
 DRAW
 P 2 0 1 15 0 -55 35 -70 N
 P 3 0 1 15 0 -55 0 55 -35 70 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
-P 4 0 1 10 0 0 100 50 100 -50 0 0 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+P 4 0 1 10 0 0 100 50 100 -50 0 0 f
 X 1 1 200 0 100 L 50 50 1 1 I
 X 2 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW
@@ -273,7 +273,7 @@ F9 "V" 0 -250 60 H I C CNN "Voltage - Breakdown (Min)"
 DRAW
 P 2 0 1 15 0 -55 35 -70 N
 P 3 0 1 15 0 -55 0 55 -35 70 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 X Cathode 1 100 0 100 L 50 50 1 1 I
 X Anode 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW
@@ -295,7 +295,7 @@ F9 "Vz" 0 -250 60 H I C CNN "Voltage - Zener (Nom) (Vz)"
 DRAW
 P 2 0 1 15 0 -55 -30 -55 N
 P 3 0 1 15 0 -55 0 55 30 55 N
-P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
 X Cathode 1 100 0 100 L 50 50 1 1 I
 X Anode 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW

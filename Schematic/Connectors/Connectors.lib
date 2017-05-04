@@ -20,7 +20,7 @@ T 0 0 -200 30 0 0 0 CAN_L Normal 0 C C
 T 0 -10 100 30 0 0 0 CAN_PWR Normal 0 C C
 T 900 -150 0 30 0 0 0 M12-5~Male~Pins Normal 0 C C
 T 0 -10 200 30 0 0 0 Shield Normal 0 C C
-S 100 250 -120 -250 0 1 0 N
+S 100 250 -120 -250 0 1 0 f
 X Shield 1 200 200 100 L 50 50 1 1 I
 X CAN_PWR 2 200 100 100 L 50 50 1 1 I
 X CAN_GND 3 200 0 100 L 50 50 1 1 I
@@ -48,7 +48,7 @@ T 0 0 -200 30 0 0 0 CAN_L Normal 0 C C
 T 0 -10 100 30 0 0 0 CAN_PWR Normal 0 C C
 T 900 -150 0 30 0 0 0 M12-5~Receptacle Normal 0 C C
 T 0 -10 200 30 0 0 0 Shield Normal 0 C C
-S 100 250 -120 -250 0 1 0 N
+S 100 250 -120 -250 0 1 0 f
 X Shield 1 200 200 100 L 50 50 1 1 I
 X CAN_PWR 2 200 100 100 L 50 50 1 1 I
 X CAN_GND 3 200 0 100 L 50 50 1 1 I
@@ -70,7 +70,7 @@ F6 "Phoenix Contact" 0 -610 60 H I C CNN "Manufacturer"
 F7 "1935161" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "TERM BLOCK PCB 2POS 5.0MM GREEN" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 150 0 -50 0 0 0 N
+S -150 150 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 ENDDRAW
@@ -89,7 +89,7 @@ F6 "Phoenix Contact" 0 -610 60 H I C CNN "Manufacturer"
 F7 "1935174" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "TERM BLOCK PCB 3POS 5.0MM GREEN" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 250 0 -50 0 0 0 N
+S -150 250 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -109,7 +109,7 @@ F6 "Phoenix Contact" 0 -610 60 H I C CNN "Manufacturer"
 F7 "1935187" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "TERM BLOCK PCB 4POS 5.0MM GREEN" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 350 0 -50 0 0 0 N
+S -150 350 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -130,7 +130,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 950 0 -50 0 0 0 N
+S -150 950 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -157,7 +157,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 1050 0 -50 0 0 0 N
+S -150 1050 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -185,7 +185,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 1150 0 -50 0 0 0 N
+S -150 1150 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -214,7 +214,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 150 0 -50 0 0 0 N
+S -150 150 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 ENDDRAW
@@ -233,7 +233,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 3250 0 -50 0 0 0 N
+S -150 3250 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -283,7 +283,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 3750 0 -50 0 0 0 N
+S -150 3750 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -338,7 +338,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 250 0 -50 0 0 0 N
+S -150 250 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -358,7 +358,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 3950 0 -50 0 0 0 N
+S -150 3950 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -415,7 +415,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 350 0 -50 0 0 0 N
+S -150 350 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -436,7 +436,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 450 0 -50 0 0 0 N
+S -150 450 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -458,7 +458,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 550 0 -50 0 0 0 N
+S -150 550 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -481,7 +481,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 650 0 -50 0 0 0 N
+S -150 650 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -505,7 +505,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 750 0 -50 0 0 0 N
+S -150 750 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -530,7 +530,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Single Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -150 850 0 -50 0 0 0 N
+S -150 850 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 100 100 100 L 50 50 1 1 P
 X ~ 3 100 200 100 L 50 50 1 1 P
@@ -556,7 +556,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -200 950 0 -50 0 0 0 N
+S -200 950 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 -300 0 100 R 50 40 1 1 P
 X ~ 3 100 100 100 L 50 50 1 1 P
@@ -593,7 +593,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -200 150 0 -50 0 0 0 N
+S -200 150 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 -300 0 100 R 50 40 1 1 P
 X ~ 3 100 100 100 L 50 50 1 1 P
@@ -614,7 +614,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -200 250 0 -50 0 0 0 N
+S -200 250 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 -300 0 100 R 50 40 1 1 P
 X ~ 3 100 100 100 L 50 50 1 1 P
@@ -637,7 +637,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -200 350 0 -50 0 0 0 N
+S -200 350 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 -300 0 100 R 50 40 1 1 P
 X ~ 3 100 100 100 L 50 50 1 1 P
@@ -662,7 +662,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -200 450 0 -50 0 0 0 N
+S -200 450 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 -300 0 100 R 50 40 1 1 P
 X ~ 3 100 100 100 L 50 50 1 1 P
@@ -689,7 +689,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -200 550 0 -50 0 0 0 N
+S -200 550 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 -300 0 100 R 50 40 1 1 P
 X ~ 3 100 100 100 L 50 50 1 1 P
@@ -718,7 +718,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -200 650 0 -50 0 0 0 N
+S -200 650 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 -300 0 100 R 50 40 1 1 P
 X ~ 3 100 100 100 L 50 50 1 1 P
@@ -749,7 +749,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -200 750 0 -50 0 0 0 N
+S -200 750 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 -300 0 100 R 50 40 1 1 P
 X ~ 3 100 100 100 L 50 50 1 1 P
@@ -782,7 +782,7 @@ F6 "Manufacturer" 0 -610 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -710 60 H I C CNN "Manufacturer Part Number"
 F8 "Pin Male Double Row Pin Header Strip" 0 -810 60 H I C CNN "Description"
 DRAW
-S -200 850 0 -50 0 0 0 N
+S -200 850 0 -50 0 0 0 f
 X ~ 1 100 0 100 L 50 40 1 1 P
 X ~ 2 -300 0 100 R 50 40 1 1 P
 X ~ 3 100 100 100 L 50 50 1 1 P
@@ -852,7 +852,7 @@ F6 "Keystone Electronics" 0 -600 60 H I C CNN "Manufacturer"
 F7 "5001" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "TEST POINT PC MINI .040\"D BLACK" 0 -800 60 H I C CNN "Description"
 DRAW
-S -50 50 100 -50 0 1 0 N
+S -50 50 100 -50 0 1 0 f
 X TP 1 200 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
