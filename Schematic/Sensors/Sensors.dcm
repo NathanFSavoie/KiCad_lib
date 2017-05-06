@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP MF52A2103J3470
+D NTC THERMISTOR 10K OHM 5% BEAD
+K NTC
+F http://www.cantherm.com/media/productPDF/cantherm_mf52_1.pdf
+$ENDCMP
+#
 $CMP NTC
 D NTC SYMBOL
 K SYMBOL
