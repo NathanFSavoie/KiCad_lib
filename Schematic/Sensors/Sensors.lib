@@ -1,6 +1,60 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# NTC
+#
+DEF ~NTC RT 0 0 N N 1 F N
+F0 "RT" 0 100 60 H V C CNN
+F1 "NTC" 0 -300 50 H I C CNN
+F2 "F" 0 -900 30 H I C CNN
+F3 "D" 0 -950 30 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+F9 "Resistance" 0 -150 50 H V C CNN "Resistance (Ohms)"
+F10 "Tolerance" 400 -225 50 H I C CNN "Tolerance (%)"
+F11 "Puissance" 0 -225 50 H I C CNN "Puissance (Watts)"
+DRAW
+C 107 -52 5 0 0 5 N
+T 0 50 -75 50 0 0 0 -t Normal 0 C C
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 3 0 1 0 -111 -75 -61 -75 64 75 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 200 0 50 L 50 50 1 1 P
+X 2 2 -200 0 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PTC
+#
+DEF ~PTC RT 0 0 N N 1 F N
+F0 "RT" 0 100 60 H V C CNN
+F1 "PTC" 0 -300 50 H I C CNN
+F2 "F" 0 -900 30 H I C CNN
+F3 "D" 0 -950 30 H I C CNN
+F4 "Supplier" 0 -400 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -800 60 H I C CNN "Description"
+F9 "Resistance" 0 -150 50 H V C CNN "Resistance (Ohms)"
+F10 "Tolerance" 400 -225 50 H I C CNN "Tolerance (%)"
+F11 "Puissance" 0 -225 50 H I C CNN "Puissance (Watts)"
+DRAW
+C 107 -52 5 0 0 5 N
+T 0 50 -75 50 0 0 0 +t Normal 0 C C
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 3 0 1 0 -111 -75 -61 -75 64 75 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 200 0 50 L 50 50 1 1 P
+X 2 2 -200 0 50 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Template_Lib
 #
 DEF Template_Lib U 0 40 Y Y 1 F N

@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTC
+D NTC SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP PTC
+D PTC SYMBOL
+K SYMBOL
+$ENDCMP
+#
+#End Doc Library
