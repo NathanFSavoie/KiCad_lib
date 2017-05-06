@@ -213,6 +213,30 @@ X Anode 2 -200 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# MMBZ12VALT1G
+#
+DEF MMBZ12VALT1G D 0 0 N N 2 F N
+F0 "D" -50 150 60 H V C CNN
+F1 "MMBZ12VALT1G" 0 -150 60 H V C CNN
+F2 "IC:SOT-23-3" 10 -1190 60 H I C CNN
+F3 "http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF" 10 -1290 60 H I C CNN
+F4 "Digikey" 10 -690 60 H I C CNN "Supplier"
+F5 "MMBZ12VALT1GOSCT-ND" 10 -790 60 H I C CNN "Supplier Part Number"
+F6 "ON Semiconductor" 10 -890 60 H I C CNN "Manufacturer"
+F7 "MMBZ12VALT1G" 10 -990 60 H I C CNN "Manufacturer Part Number"
+F8 "TVS DIODE 8.5VWM 17VC SOT23" 10 -1090 60 H I C CNN "Description"
+F9 "11.4V" 0 -250 60 H I C CNN "Voltage - Breakdown (Min)"
+DRAW
+P 2 0 1 15 0 -55 35 -70 N
+P 3 0 1 15 0 -55 0 55 -35 70 N
+P 4 0 1 10 -100 50 -100 -50 0 0 -100 50 f
+X Cathode 1 100 0 100 L 50 50 1 1 I
+X Anode 3 -200 0 100 R 50 50 1 1 I
+X Cathode 2 100 0 100 L 50 50 2 1 I
+X Anode 3 -200 0 100 R 50 50 2 1 I
+ENDDRAW
+ENDDEF
+#
 # Schottky
 #
 DEF Schottky D 0 0 N N 1 F N
