@@ -6,6 +6,18 @@ K N-Channel
 F http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf
 $ENDCMP
 #
+$CMP IRF9Z34NPBF
+D MOSFET P-CH 55V 19A TO-220AB
+K P-Channel
+F http://www.infineon.com/dgdl/irf9z34npbf.pdf?fileId=5546d462533600a40153561220af1ddd
+$ENDCMP
+#
+$CMP IRFZ24NPBF
+D MOSFET N-CH 55V 17A TO-220AB
+K N-Channel
+F http://www.infineon.com/dgdl/irfz24npbf.pdf?fileId=5546d462533600a40153563af6ce21f7
+$ENDCMP
+#
 $CMP N-Channel_MOSFET
 D N-Channel MOSFET SYMBOL
 K SYMBOL
