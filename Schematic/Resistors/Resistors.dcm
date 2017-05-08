@@ -161,6 +161,12 @@ K Thick Film, Moisture Resistant
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf
 $ENDCMP
 #
+$CMP RL2512FK-070R01L
+D RES SMD 0.01 OHM 1% 1W 2512
+K Automotive AEC-Q200, Current Sense, Moisture Resistant
+F http://www.yageo.com/documents/recent/PYu-RL_Group_521_RoHS_L%201.pdf
+$ENDCMP
+#
 $CMP Resistor
 D Resistor SYMBOL
 K SYMBOL
