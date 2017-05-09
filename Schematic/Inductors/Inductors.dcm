@@ -10,4 +10,16 @@ D Inductor Shielded SYMBOL
 K SYMBOL
 $ENDCMP
 #
+$CMP RLB0608-331KL
+D FIXED IND 330UH 165MA 4.68 OHM
+K Wirewound
+F http://www.bourns.com/docs/Product-Datasheets/rlb.pdf
+$ENDCMP
+#
+$CMP RLB0608-471KL
+D FIXED IND 470UH 140MA 6.5 OHM TH
+K Wirewound
+F http://www.bourns.com/docs/Product-Datasheets/rlb.pdf
+$ENDCMP
+#
 #End Doc Library

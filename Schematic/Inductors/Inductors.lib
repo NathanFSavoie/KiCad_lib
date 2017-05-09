@@ -13,7 +13,7 @@ F5 "Supplier Part Number" 0 -550 60 H I C CNN "Supplier Part Number"
 F6 "Manufacturer" 0 -650 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -750 60 H I C CNN "Manufacturer Part Number"
 F8 "Description" 0 -850 60 H I C CNN "Description"
-F9 "Inductor" 0 -50 50 H V C CNN "Inductor (Henry)"
+F9 "Inductance" 0 -50 50 H V C CNN "Inductance (Henry)"
 F10 "Current Rating" 0 -120 50 H V C CNN "Current Rating (Ampere)"
 DRAW
 A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
@@ -36,7 +36,7 @@ F5 "Supplier Part Number" 0 -500 60 H I C CNN "Supplier Part Number"
 F6 "Manufacturer" 0 -600 60 H I C CNN "Manufacturer"
 F7 "Manufacturer Part Number" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "Description" 0 -800 60 H I C CNN "Description"
-F9 "Inductor" 0 -50 50 H V C CNN "Inductor (Henry)"
+F9 "Inductance" 0 -50 50 H V C CNN "Inductance (Henry)"
 F10 "Current Rating" -10 -120 50 H V C CNN "Current Rating (Ampere)"
 DRAW
 A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
@@ -44,6 +44,52 @@ A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
 A 80 0 40 1 1799 0 1 0 N 120 0 40 0
 P 2 0 1 0 -120 60 120 60 N
 P 2 0 1 0 -120 80 120 80 N
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RLB0608-331KL
+#
+DEF ~RLB0608-331KL L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "RLB0608-331KL" 0 -350 60 H I C CNN
+F2 "F" 0 -950 60 H I C CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/rlb.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "RLB0608-331KL-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Bourns Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "RLB0608-331KL" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 330UH 165MA 4.68 OHM" 0 -850 60 H I C CNN "Description"
+F9 "330µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "165mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RLB0608-471KL
+#
+DEF ~RLB0608-471KL L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "RLB0608-471KL" 0 -350 60 H I C CNN
+F2 "F" 0 -950 60 H I C CNN
+F3 "http://www.bourns.com/docs/Product-Datasheets/rlb.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "RLB0608-471KL-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Bourns Inc." 0 -650 60 H I C CNN "Manufacturer"
+F7 "RLB0608-471KL" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 470UH 140MA 6.5 OHM TH" 0 -850 60 H I C CNN "Description"
+F9 "470µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "140mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
 X 1 1 -200 0 80 R 50 50 1 1 P
 X 2 2 200 0 80 L 50 50 1 1 P
 ENDDRAW
