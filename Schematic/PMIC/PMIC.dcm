@@ -18,6 +18,12 @@ K LDO 3.3V 800mA
 F https://www.diodes.com/assets/Datasheets/AZ1117I.pdf
 $ENDCMP
 #
+$CMP AZ34063UMTR-G1
+D IC REG BUCK BOOST INV ADJ 8SOIC
+K Step-Up, Step-Down,Positive or Negative
+F https://www.diodes.com/assets/Datasheets/AZ34063U.pdf
+$ENDCMP
+#
 $CMP Current_Regulation_Management_INFO
 D Current_Regulation_Management_INFO
 K INFO

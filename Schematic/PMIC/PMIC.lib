@@ -96,9 +96,54 @@ X Vout_(TAB) 4 300 100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# AZ34063UMTR-G1
+#
+DEF AZ34063UMTR-G1 U 0 0 Y N 1 F N
+F0 "U" -200 400 60 H V C CNN
+F1 "AZ34063UMTR-G1" -10 -425 60 H V C CNN
+F2 "IC:SOIC-8" 0 -2250 60 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AZ34063U.pdf" 0 -2350 60 H I C CNN
+F4 "Digikey" 0 -1750 60 H I C CNN "Supplier"
+F5 "AZ34063UMTR-G1DICT-ND" 0 -1850 60 H I C CNN "Supplier Part Number"
+F6 "Diodes Incorporated" 0 -1950 60 H I C CNN "Manufacturer"
+F7 "AZ34063UMTR-G1" 0 -2050 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG BUCK BOOST INV ADJ 8SOIC" 0 -2150 60 H I C CNN "Description"
+F9 "Step-Up, Step-Down" 5 -570 50 H I C CNN "Function"
+F10 "Positive or Negative" -5 -655 50 H I C CNN "Output Configuration"
+F11 "Buck, Boost" 5 -765 50 H I C CNN "Topology"
+F12 "Adjustable" 10 -870 50 H I C CNN "Output Type"
+F13 "1" -10 -960 50 H I C CNN "Number of Outputs"
+F14 "3V" -10 -1040 50 H I C CNN "Voltage - Input (Min)"
+F15 "36V" -10 -1120 50 H I C CNN "Voltage - Input (Max)"
+F16 "1.25V" -10 -1210 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F17 "36V" -5 -1310 50 H I C CNN "Voltage - Output (Max)"
+F18 "1.5A (Switch)" 5 -1425 50 H I C CNN "Current - Output"
+F19 "Up to 180kHz" 0 -1535 50 H I C CNN "Frequency - Switching"
+F20 "No" 0 -1630 50 H I C CNN "Synchronous Rectifier"
+DRAW
+T 0 -175 -300 50 0 0 0 COMP Normal 0 C C
+T 0 -175 300 50 0 0 0 DRV_C Normal 0 C C
+T 0 200 -300 50 0 0 0 GND Normal 0 C C
+T 0 -225 100 50 0 0 0 Ipk Normal 0 C C
+T 0 175 300 50 0 0 0 SW_C Normal 0 C C
+T 0 175 100 50 0 0 0 SW_E Normal 0 C C
+T 0 125 -100 50 0 0 0 TIM_CAP Normal 0 C C
+T 0 -200 -100 50 0 0 0 VCC Normal 0 C C
+S -300 350 300 -350 0 0 0 f
+X Switch_Collector 1 400 300 100 L 50 50 1 1 I
+X Switch_Emitter 2 400 100 100 L 50 50 1 1 I
+X Timing_Capacitor 3 400 -100 100 L 50 50 1 1 I
+X GND 4 400 -300 100 L 50 50 1 1 I
+X Comp_in 5 -400 -300 100 R 50 50 1 1 I
+X VCC 6 -400 -100 100 R 50 50 1 1 I
+X Ipk_Sense 7 -400 100 100 R 50 50 1 1 I
+X Driver_Collector 8 -400 300 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Current_Regulation_Management_INFO
 #
-DEF Current_Regulation_Management_INFO U 0 0 N N 1 F N
+DEF Current_Regulation_Management_INFO U 0 0 Y N 1 F N
 F0 "U" -80 160 60 H V C CNN
 F1 "Current_Regulation_Management_INFO" -10 -300 60 H V C CNN
 F2 "F" 10 -1390 60 H I C CNN
@@ -119,7 +164,7 @@ ENDDEF
 #
 # DC-DC_Switching_Controllers_INFO
 #
-DEF DC-DC_Switching_Controllers_INFO U 0 0 N N 1 F N
+DEF DC-DC_Switching_Controllers_INFO U 0 0 Y N 1 F N
 F0 "U" -80 160 60 H V C CNN
 F1 "DC-DC_Switching_Controllers_INFO" -10 -300 60 H V C CNN
 F2 "F" 10 -1390 60 H I C CNN
@@ -139,7 +184,7 @@ ENDDEF
 #
 # DC-DC_Switching_Regulators_INFO
 #
-DEF DC-DC_Switching_Regulators_INFO U 0 0 N N 1 F N
+DEF DC-DC_Switching_Regulators_INFO U 0 0 Y N 1 F N
 F0 "U" -80 160 60 H V C CNN
 F1 "DC-DC_Switching_Regulators_INFO" -10 -300 60 H V C CNN
 F2 "F" 0 -2125 60 H I C CNN
