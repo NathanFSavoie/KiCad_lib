@@ -70,4 +70,10 @@ D Capacitor Generic Polarised SYMBOL
 K SYMBOL
 $ENDCMP
 #
+$CMP UVZ1A471MED
+D CAP ALUM 470UF 20% 10V RADIAL
+K Aluminum Capacitors Radial
+F http://nichicon-us.com/english/products/pdfs/e-uvz.pdf
+$ENDCMP
+#
 #End Doc Library
