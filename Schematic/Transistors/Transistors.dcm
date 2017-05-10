@@ -6,6 +6,12 @@ K N-Channel
 F http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf
 $ENDCMP
 #
+$CMP CPH6347-TL-W
+D MOSFET P-CH 20V 6A CPH6
+K P-Channel
+F http://www.onsemi.com/pub/Collateral/CPH6347-D.PDF
+$ENDCMP
+#
 $CMP IRF9Z34NPBF
 D MOSFET P-CH 55V 19A TO-220AB
 K P-Channel
