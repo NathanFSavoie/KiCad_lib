@@ -51,6 +51,12 @@ K TVS
 F http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF
 $ENDCMP
 #
+$CMP NSR0530HT1G
+D DIODE SCHOTTKY 30V 500MA SOD323
+K Schottky
+F http://www.onsemi.com/pub/Collateral/NSR0530H-D.PDF
+$ENDCMP
+#
 $CMP Schottky
 D Schottky SYMBOL
 K SYMBOL
