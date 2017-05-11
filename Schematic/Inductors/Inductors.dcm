@@ -10,6 +10,18 @@ D Inductor Shielded SYMBOL
 K SYMBOL
 $ENDCMP
 #
+$CMP LBC3225T101KR
+D FIXED IND 100UH 150MA 1.4 OHM
+K Wirewound
+F http://www.yuden.co.jp/productdata/catalog/en/wound01_e.pdf
+$ENDCMP
+#
+$CMP LBC3225T470KR
+D FIXED IND 47UH 220MA 670 MOHM
+K Wirewound
+F http://www.yuden.co.jp/productdata/catalog/en/wound01_e.pdf
+$ENDCMP
+#
 $CMP RLB0608-331KL
 D FIXED IND 330UH 165MA 4.68 OHM
 K Wirewound

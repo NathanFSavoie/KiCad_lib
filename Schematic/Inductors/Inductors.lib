@@ -49,12 +49,58 @@ X 2 2 200 0 80 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# LBC3225T101KR
+#
+DEF ~LBC3225T101KR L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "LBC3225T101KR" 0 -350 60 H I C CNN
+F2 "Inductors:LBC3225" 0 -950 60 H I C CNN
+F3 "http://www.yuden.co.jp/productdata/catalog/en/wound01_e.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "587-2422-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Taiyo Yuden" 0 -650 60 H I C CNN "Manufacturer"
+F7 "LBC3225T101KR" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 100UH 150MA 1.4 OHM" 0 -850 60 H I C CNN "Description"
+F9 "100µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "150mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LBC3225T470KR
+#
+DEF ~LBC3225T470KR L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "LBC3225T470KR" 0 -350 60 H I C CNN
+F2 "Inductors:LBC3225" 0 -950 60 H I C CNN
+F3 "http://www.yuden.co.jp/productdata/catalog/en/wound01_e.pdf" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "587-2430-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Taiyo Yuden" 0 -650 60 H I C CNN "Manufacturer"
+F7 "LBC3225T470KR" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 47UH 220MA 670 MOHM" 0 -850 60 H I C CNN "Description"
+F9 "47µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "220mA" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+X 1 1 -200 0 80 R 50 50 1 1 P
+X 2 2 200 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RLB0608-331KL
 #
 DEF ~RLB0608-331KL L 0 0 N N 1 F N
 F0 "L" 0 100 60 H V C CNN
 F1 "RLB0608-331KL" 0 -350 60 H I C CNN
-F2 "F" 0 -950 60 H I C CNN
+F2 "Inductors:RLB0608" 0 -950 60 H I C CNN
 F3 "http://www.bourns.com/docs/Product-Datasheets/rlb.pdf" 0 -1050 60 H I C CNN
 F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
 F5 "RLB0608-331KL-ND" 0 -550 60 H I C CNN "Supplier Part Number"
@@ -77,7 +123,7 @@ ENDDEF
 DEF ~RLB0608-471KL L 0 0 N N 1 F N
 F0 "L" 0 100 60 H V C CNN
 F1 "RLB0608-471KL" 0 -350 60 H I C CNN
-F2 "F" 0 -950 60 H I C CNN
+F2 "Inductors:RLB0608" 0 -950 60 H I C CNN
 F3 "http://www.bourns.com/docs/Product-Datasheets/rlb.pdf" 0 -1050 60 H I C CNN
 F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
 F5 "RLB0608-471KL-ND" 0 -550 60 H I C CNN "Supplier Part Number"
