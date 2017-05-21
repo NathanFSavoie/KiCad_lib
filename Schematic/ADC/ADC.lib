@@ -1,6 +1,31 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# MCP3002-I/P
+#
+DEF MCP3002-I/P U 0 40 Y Y 1 F N
+F0 "U" -550 600 60 H V C CNN
+F1 "MCP3002-I/P" 550 -700 60 H V C CNN
+F2 "F" 0 -1550 60 H I C CNN
+F3 "D" 0 -1650 60 H I C CNN
+F4 "Digikey" 0 -1050 60 H I C CNN "Supplier"
+F5 "MCP3002-I/P-ND" 0 -1150 60 H I C CNN "Supplier Part Number"
+F6 "Microchip Technology" 0 -1250 60 H I C CNN "Manufacturer"
+F7 "MCP3002-I/P" 0 -1350 60 H I C CNN "Manufacturer Part Number"
+F8 "IC ADC 10BIT 2.7V 2CH SPI 8-DIP" 0 -1450 60 H I C CNN "Description"
+DRAW
+S -600 550 600 -650 0 1 0 N
+X CS/SHDN 1 800 250 200 L 50 50 1 1 I
+X CH0 2 -800 300 200 R 50 50 1 1 I
+X CH1 3 -800 -350 200 R 50 50 1 1 I
+X Vss 4 0 -850 200 U 50 50 1 1 I
+X Din 5 800 -350 200 L 50 50 1 1 I
+X Dout 6 800 -150 200 L 50 50 1 1 I
+X CLK 7 800 50 200 L 50 50 1 1 I
+X Vdd 8 0 750 200 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Template_Lib
 #
 DEF Template_Lib U 0 40 Y Y 1 F N

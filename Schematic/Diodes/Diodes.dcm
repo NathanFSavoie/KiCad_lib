@@ -1,38 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 150080BS75000
-D LED BLUE CLEAR 0805 SMD
-K LED BLUE CLEAR
-F http://katalog.we-online.de/led/datasheet/150080BS75000.pdf
-$ENDCMP
-#
-$CMP 150080RS75000
-D LED RED CLEAR 0805 SMD
-K LED RED CLEAR
-F http://katalog.we-online.de/led/datasheet/150080RS75000.pdf
-$ENDCMP
-#
-$CMP 150080VS75000
-D LED GREEN CLEAR 0805 SMD
-K LED GREEN CLEAR
-F http://katalog.we-online.de/led/datasheet/150080VS75000.pdf
-$ENDCMP
-#
-$CMP 150080YS75000
-D LED YELLOW CLEAR 0805 SMD
-K LED YELLOW CLEAR
-F http://katalog.we-online.de/led/datasheet/150080YS75000.pdf
+$CMP 1N5408
+D Diode SYMBOL
+K SYMBOL
 $ENDCMP
 #
 $CMP Bridge_Rectifier
 D Bridge Rectifier SYMBOL
 K SYMBOL
-$ENDCMP
-#
-$CMP D1213A-02SOL-7
-D TVS DIODE 3.3VWM 10VC SOT23
-K Steering (Rail to Rail)
-F https://www.diodes.com/assets/Datasheets/D1213A_02SOL.pdf
 $ENDCMP
 #
 $CMP Diode
@@ -45,16 +20,19 @@ D LED SYMBOL
 K SYMBOL
 $ENDCMP
 #
-$CMP MMBZ12VALT1G
-D TVS DIODE 8.5VWM 17VC SOT23
-K TVS
-F http://www.onsemi.com/pub/Collateral/MMBZ5V6ALT1-D.PDF
+$CMP LED_WHITE
+D LED SYMBOL
+K SYMBOL
 $ENDCMP
 #
-$CMP NSR0530HT1G
-D DIODE SCHOTTKY 30V 500MA SOD323
-K Schottky
-F http://www.onsemi.com/pub/Collateral/NSR0530H-D.PDF
+$CMP P6KE22CA
+D TVS Bidirectional SYMBOL
+K SYMBOL
+$ENDCMP
+#
+$CMP P6KE6V8CA
+D TVS Bidirectional SYMBOL
+K SYMBOL
 $ENDCMP
 #
 $CMP Schottky

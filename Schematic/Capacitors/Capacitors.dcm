@@ -1,53 +1,13 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 885012007027
-D CAP CER 6.8PF 25V C0G/NP0 0805
-K General Purpose, Wurth
+$CMP C1206C104K5RAC7867
+D Capacitor Generic
+K Capacitor Generic
 $ENDCMP
 #
-$CMP 885012007053
-D CAP CER 22PF 50V C0G/NP0 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012107005
-D CAP CER 22UF 6.3V X5R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012107014
-D CAP CER 10UF 16V X5R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012107015
-D CAP CER 1UF 25V X5R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012107018
-D CAP CER 4.7UF 25V X5R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012207080
-D CAP CER 100PF 50V X7R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012207086
-D CAP CER 1nF 50V X7R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012207092
-D CAP CER 10nF 50V X7R 0805
-K General Purpose, Wurth
-$ENDCMP
-#
-$CMP 885012207098
-D CAP CER 0.1UF 100nF 50V X7R 0805
-K General Purpose, Wurth
+$CMP C_NP_100n_SMD_1206
+D Capacitor Generic
+K Capacitor Generic
 $ENDCMP
 #
 $CMP Capacitor
@@ -68,12 +28,6 @@ $ENDCMP
 $CMP Capacitor_Polarised
 D Capacitor Generic Polarised SYMBOL
 K SYMBOL
-$ENDCMP
-#
-$CMP UVZ1A471MED
-D CAP ALUM 470UF 20% 10V RADIAL
-K Aluminum Capacitors Radial
-F http://nichicon-us.com/english/products/pdfs/e-uvz.pdf
 $ENDCMP
 #
 #End Doc Library

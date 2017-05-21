@@ -1,21 +1,28 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# 885012007027
+# C1206C104K5RAC7867
 #
-DEF ~885012007027 C 0 0 N N 1 F N
+DEF ~C1206C104K5RAC7867 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
-F1 "885012007027" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F1 "C1206C104K5RAC7867" -50 -350 60 H I C CNN
+F2 "F" -50 -950 60 H I C CNN
 F3 "D" -50 -1050 60 H I C CNN
 F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-7826-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012007027" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 6.8PF 25V C0G/NP0 0805" -50 -850 60 H I C CNN "Description"
-F9 "6.8pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±0.5pF" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+F5 "399-1249-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "KEMET" -50 -650 60 H I C CNN "Manufacturer"
+F7 "C1206C104K5RAC7867" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 50V X7R 1206" -50 -850 60 H I C CNN "Description"
+F9 "0.1uF" -50 -150 50 H V C CNN "Capacitance (Farad)"
+F10 "10%" 150 -150 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -250 50 H V C CNN "Voltage Rated (Volt)"
+$FPLIST
+ C0805
+ C1206
+ C1218
+ C2010
+ C2512
+$ENDFPLIST
 DRAW
 P 2 0 1 0 -100 0 -90 0 N
 P 2 0 1 10 -85 75 -85 -75 N
@@ -27,229 +34,28 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 885012007053
+# C_NP_100n_SMD_1206
 #
-DEF ~885012007053 C 0 0 N N 1 F N
+DEF ~C_NP_100n_SMD_1206 C 0 0 N N 1 F N
 F0 "C" -50 160 60 H V C CNN
-F1 "885012007053" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
+F1 "C_NP_100n_SMD_1206" -50 -350 60 H I C CNN
+F2 "F" -50 -950 60 H I C CNN
 F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-7848-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012007053" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 22PF 50V C0G/NP0 0805" -50 -850 60 H I C CNN "Description"
-F9 "22pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±5%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 885012107005
-#
-DEF ~885012107005 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "885012107005" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-7616-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012107005" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 22UF 6.3V X5R 0805" -50 -850 60 H I C CNN "Description"
-F9 "22µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "6.3V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 885012107014
-#
-DEF ~885012107014 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "885012107014" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-7624-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012007027" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 10UF 16V X5R 0805" -50 -850 60 H I C CNN "Description"
-F9 "10µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "16V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 885012107015
-#
-DEF ~885012107015 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "885012107015" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-7625-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012107015" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 1UF 25V X5R 0805" -50 -850 60 H I C CNN "Description"
-F9 "1µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 885012107018
-#
-DEF ~885012107018 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "885012107018" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-7628-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012107018" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 4.7UF 25V X5R 0805" -50 -850 60 H I C CNN "Description"
-F9 "4.7µF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±20%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "25V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 885012207080
-#
-DEF ~885012207080 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "885012207080" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-8062-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012207080" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 100PF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
-F9 "100pF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 885012207086
-#
-DEF ~885012207086 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "885012207086" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-8074-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012207086" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 1NF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
-F9 "1nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 885012207092
-#
-DEF ~885012207092 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "885012207092" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-8074-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012207092" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 10000PF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
-F9 "10nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# 885012207098
-#
-DEF ~885012207098 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "885012207098" -50 -350 60 H I C CNN
-F2 "Capacitors:C0805" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
-F5 "732-8080-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Wurth Electronics Inc." -50 -650 60 H I C CNN "Manufacturer"
-F7 "885012207098" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 0.1UF 50V X7R 0805" -50 -850 60 H I C CNN "Description"
-F9 "100nF" -50 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "±10%" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+F4 "Supplier" -50 -450 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" -50 -650 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.1UF 50V X7R 1206" -50 -850 60 H I C CNN "Description"
+F9 "Capacitance" -210 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "Tolerance" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "Voltage Rated" -50 -190 50 H V C CNN "Voltage Rated (Volt)"
+$FPLIST
+ C0805
+ C1206
+ C1218
+ C2010
+ C2512
+$ENDFPLIST
 DRAW
 P 2 0 1 0 -100 0 -90 0 N
 P 2 0 1 10 -85 75 -85 -75 N
@@ -364,33 +170,6 @@ F9 "Capacitance" -160 -120 50 H V C CNN "Capacitance (Farad)"
 F10 "Tolerance" 290 -120 60 H I C CNN "Tolerance (%)"
 F11 "Voltage Rated" 50 -190 50 H V C CNN "Voltage Rated (Volt)"
 F12 "Ripple Current" 0 -250 50 H I C CNN "Ripple Current (A)"
-DRAW
-A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
-P 2 0 1 0 0 0 25 0 N
-P 2 0 1 10 75 75 75 -75 N
-P 2 0 1 0 95 40 145 40 N
-P 2 0 1 0 100 0 75 0 N
-P 2 0 1 0 120 15 120 65 N
-X Positif 1 200 0 100 L 50 50 1 1 P
-X Negatif 2 -100 0 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# UVZ1A471MED
-#
-DEF ~UVZ1A471MED C 0 0 N N 1 F N
-F0 "C" 35 145 60 H V C CNN
-F1 "UVZ1A471MED" 0 -340 60 H I C CNN
-F2 "Capacitors:UVZ_6_3×11" 0 -950 60 H I C CNN
-F3 "http://nichicon-us.com/english/products/pdfs/e-uvz.pdf" 0 -1050 60 H I C CNN
-F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
-F5 "493-1269-ND" 0 -550 60 H I C CNN "Supplier Part Number"
-F6 "Nichicon" 0 -650 60 H I C CNN "Manufacturer"
-F7 "UVZ1A471MED" 0 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP ALUM 470UF 20% 10V RADIAL" 0 -850 60 H I C CNN "Description"
-F9 "470µF" 50 -150 50 H V C CNN "Capacitance (Farad)"
-F10 "20%" 300 -150 60 H I C CNN "Tolerance (%)"
-F11 "10V" 50 -250 50 H V C CNN "Voltage Rated (Volt)"
 DRAW
 A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
 P 2 0 1 0 0 0 25 0 N

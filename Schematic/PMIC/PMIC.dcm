@@ -72,4 +72,8 @@ D Voltage_Regulators-Linear_INFO
 K INFO
 $ENDCMP
 #
+$CMP ZXGD3002E6
+D IC GATE DRVR IGBT/MOSFET SOT23-6
+$ENDCMP
+#
 #End Doc Library
