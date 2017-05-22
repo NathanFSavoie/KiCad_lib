@@ -14,7 +14,7 @@ LibName9=Diodes/Diodes
 LibName10=Fuses/Fuses
 LibName11=Inductors/Inductors
 LibName12=Isolators/Isolators
-LibName13=Microcontrollers/STMicroelectronics/STMicroelectronics
+LibName13=Microcontrollers/Microcontrollers
 LibName14=PMIC/PMIC
 LibName15=Power Port/Power_Port
 LibName16=Relays/Relays
@@ -23,19 +23,22 @@ LibName18=Sensors/Sensors
 LibName19=Switches/Switches
 LibName20=Transformers/Transformers
 LibName21=Transistors/Transistors
+LibName22=Miscellaneous/Miscellaneous
 
 # Footprint
 # Nickname      # Library Path
-Assembly        $(KICAD_ETS)/ETS_Assembly.pretty
-Capacitors      $(KICAD_ETS)/ETS_Capacitors.pretty
-Connectors      $(KICAD_ETS)/ETS_Connectors.pretty
-Crystals        $(KICAD_ETS)/ETS_Crystals.pretty
-Diodes          $(KICAD_ETS)/ETS_Diodes.pretty
-Fuses           $(KICAD_ETS)/ETS_Fuses.pretty
-IC              $(KICAD_ETS)/ETS_IC.pretty
-Inductors       $(KICAD_ETS)/ETS_Inductors.pretty
-Logo       		$(KICAD_ETS)/ETS_Logo.pretty
-Relays          $(KICAD_ETS)/ETS_Relays.pretty
-Resistors       $(KICAD_ETS)/ETS_Resistors.pretty
-Switches        $(KICAD_ETS)/ETS_Switches.pretty
-Transformers    $(KICAD_ETS)/ETS_Transformers.pretty
+ETS_Assembly        $(KICAD_ETS)/ETS_Assembly.pretty
+ETS_Capacitors      $(KICAD_ETS)/ETS_Capacitors.pretty
+ETS_Connectors      $(KICAD_ETS)/ETS_Connectors.pretty
+ETS_Crystals        $(KICAD_ETS)/ETS_Crystals.pretty
+ETS_Diodes          $(KICAD_ETS)/ETS_Diodes.pretty
+ETS_Fuses           $(KICAD_ETS)/ETS_Fuses.pretty
+ETS_IC              $(KICAD_ETS)/ETS_IC.pretty
+ETS_Inductors       $(KICAD_ETS)/ETS_Inductors.pretty
+ETS_Logo       		$(KICAD_ETS)/ETS_Logo.pretty
+ETS_Miscellaneous   $(KICAD_ETS)/ETS_Miscellaneous.pretty
+ETS_Relays          $(KICAD_ETS)/ETS_Relays.pretty
+ETS_Resistors       $(KICAD_ETS)/ETS_Resistors.pretty
+ETS_Switches        $(KICAD_ETS)/ETS_Switches.pretty
+ETS_Transformers    $(KICAD_ETS)/ETS_Transformers.pretty
+ETS_Transistor      $(KICAD_ETS)/ETS_Transistor.pretty
