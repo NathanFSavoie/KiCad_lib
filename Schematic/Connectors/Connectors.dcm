@@ -128,6 +128,16 @@ $CMP Header_Male_Pin_2.54mm_2X9_,_Unshrouded
 D Header Male Pin 2.54mm 2X5, Unshrouded
 $ENDCMP
 #
+$CMP ISP_PROG
+D ISP PROG Header Male Pin 2.54mm 2X3
+K ISP PROG Header Male Pin 2.54mm 2X3
+$ENDCMP
+#
+$CMP ISP_PROG_HEADER_PIN_2X3
+D ISP PROG Header Male Pin 2.54mm 2X3
+K ISP PROG Header Male Pin 2.54mm 2X3
+$ENDCMP
+#
 $CMP Solder_Bridge
 D Solder Bridge
 K Solder Bridge

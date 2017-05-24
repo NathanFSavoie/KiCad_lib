@@ -1,6 +1,31 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+# 1422435C
+#
+DEF ~1422435C L 0 0 N N 1 F N
+F0 "L" 0 100 60 H V C CNN
+F1 "1422435C" -20 -210 60 H I C CNN
+F2 "" -30 -720 60 H I C CNN
+F3 "http://www.murata-ps.com/data/magnetics/kmp_1400.pdf" -30 -820 60 H I C CNN
+F4 "Digikey" -20 -310 60 H I C CNN "Supplier"
+F5 "811-1340-ND" -20 -410 60 H I C CNN "Supplier Part Number"
+F6 "Murata Power Solutions Inc." -20 -510 60 H I C CNN "Manufacturer"
+F7 "1422435C" -20 -610 60 H I C CNN "Manufacturer Part Number"
+F8 "FIXED IND 220UH 3.5A 96 MOHM TH" -20 -710 60 H I C CNN "Description"
+F9 "220µH" 0 -50 50 H V C CNN "Inductance (Henry)"
+F10 "3.5A" 0 -120 50 H V C CNN "Current Rating (Ampere)"
+DRAW
+A -160 0 40 1 1799 0 1 0 N -120 0 -200 0
+A -80 0 40 1 1799 0 1 0 N -40 0 -120 0
+A 0 0 40 1 1799 0 1 0 N 40 0 -40 0
+A 80 0 40 1 1799 0 1 0 N 120 0 40 0
+A 160 0 40 1 1799 0 1 0 N 200 0 120 0
+X 1 1 -280 0 80 R 50 50 1 1 P
+X 2 2 280 0 80 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Inductor
 #
 DEF ~Inductor L 0 0 N N 1 F N

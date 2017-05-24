@@ -12,6 +12,11 @@ K CT-6EP, TRIMMER 10k
 F https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf
 $ENDCMP
 #
+$CMP P160KN2-0QA25B10K
+D POT 10K OHM 1/5W LINEAR PANEL MOUNT
+K POT 10K OHM 1/5W LINEAR PANEL MOUNT
+$ENDCMP
+#
 $CMP Potentiometer
 D Potentiometer SYMBOL
 K SYMBOL

@@ -57,6 +57,32 @@ X 3 3 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# P160KN2-0QA25B10K
+#
+DEF ~P160KN2-0QA25B10K VR 0 0 N N 1 F N
+F0 "VR" 150 100 60 H V C CNN
+F1 "P160KN2-0QA25B10K" 0 -320 50 H I C CNN
+F2 "F" -50 -1000 30 H I C CNN
+F3 "D" -50 -1050 30 H I C CNN
+F4 "Digikey" 0 -510 60 H I C CNN "Supplier"
+F5 "987-1715-ND" 0 -410 60 H I C CNN "Supplier Part Number"
+F6 "TT Electronics/BI" 0 -610 60 H I C CNN "Manufacturer"
+F7 "P160KN2-0QA25B10K" 0 -710 60 H I C CNN "Manufacturer Part Number"
+F8 "POT 10K OHM 1/5W LINEAR PANEL MOUNT" 0 -810 60 H I C CNN "Description"
+F9 "10K" 150 0 50 H V C CNN "Resistance (Ohms)"
+F10 "1/5W" 150 -100 50 H V C CNN "Puissance (Watts)"
+F11 "±20%" -150 -900 50 H I C CNN "Tolerance (%)"
+DRAW
+S 0 -120 0 -150 0 1 0 N
+S 0 150 0 120 0 1 0 N
+P 5 0 1 0 -150 0 -45 0 -70 15 -70 -15 -45 0 F
+P 13 0 1 0 0 -120 30 -100 0 -80 -30 -60 0 -40 30 -20 0 0 -30 20 0 40 30 60 0 80 -30 100 0 120 N
+X 1 1 0 200 50 D 50 50 1 1 P
+X 2 2 -200 0 50 R 50 50 1 1 P
+X 3 3 0 -200 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Potentiometer
 #
 DEF ~Potentiometer VR 0 0 N N 1 F N

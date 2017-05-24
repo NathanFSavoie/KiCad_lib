@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 1422435C
+D FIXED IND 100UH 150MA 1.4 OHM
+K Wirewound
+F http://www.yuden.co.jp/productdata/catalog/en/wound01_e.pdf
+$ENDCMP
+#
 $CMP Inductor
 D Inductor SYMBOL
 K SYMBOL

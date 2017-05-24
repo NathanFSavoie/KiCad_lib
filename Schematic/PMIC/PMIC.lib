@@ -1,22 +1,6 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
-# 7805
-#
-DEF 7805 U 0 30 N Y 1 F N
-F0 "U" 150 -196 60 H V C CNN
-F1 "7805" 0 200 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-ALIAS LM7805 LM7812 78L05
-DRAW
-S -200 -150 200 150 0 1 0 N
-X VI VI -400 50 200 R 40 40 1 1 I
-X VO VO 400 50 200 L 40 40 1 1 w
-X GND GND 0 -250 100 U 40 40 1 1 I
-ENDDRAW
-ENDDEF
-#
 # AL8860MP-13
 #
 DEF AL8860MP-13 U 0 40 N Y 1 F N
@@ -264,22 +248,62 @@ X IN+ 8 -500 300 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# L7805CV
+#
+DEF L7805CV U 0 30 N Y 1 F N
+F0 "U" 150 -196 60 H V C CNN
+F1 "L7805CV" 0 200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 150 -196 60 H V C CNN
+F4 "Digikey" -30 -380 60 H I C CNN "Supplier"
+F5 "497-1443-5-ND" 20 -500 60 H I C CNN "Supplier Part Number"
+F6 "STMicroelectronics" 10 -610 60 H I C CNN "Manufacturer"
+F7 "L7805CV" -30 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG LDO 5V 1.5A TO220AB" 30 -800 60 H I C CNN "Description"
+DRAW
+S -200 -150 200 150 0 1 0 N
+X VI 1 -400 50 200 R 40 40 1 1 I
+X GND 2 0 -250 100 U 40 40 1 1 I
+X VO 3 400 50 200 L 40 40 1 1 w
+ENDDRAW
+ENDDEF
+#
+# L7812CV
+#
+DEF L7812CV U 0 30 N Y 1 F N
+F0 "U" 150 -196 60 H V C CNN
+F1 "L7812CV" 0 200 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 150 -196 60 H V C CNN
+F4 "Digikey" -30 -380 60 H I C CNN "Supplier"
+F5 "497-1452-5-ND" 20 -500 60 H I C CNN "Supplier Part Number"
+F6 "STMicroelectronics" 10 -610 60 H I C CNN "Manufacturer"
+F7 "L7812CV" -30 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "IC REG LDO 12V 1.5A TO220AB" 30 -800 60 H I C CNN "Description"
+DRAW
+S -200 -150 200 150 0 1 0 N
+X VI 1 -400 50 200 R 40 40 1 1 I
+X GND 2 0 -250 100 U 40 40 1 1 I
+X VO 3 400 50 200 L 40 40 1 1 w
+ENDDRAW
+ENDDEF
+#
 # OKI-78SR-5/1.5-W36-C
 #
 DEF OKI-78SR-5/1.5-W36-C U 0 0 Y N 1 F N
 F0 "U" 0 150 60 H V C CNN
 F1 "OKI-78SR-5/1.5-W36-C" 0 -400 60 H V C CNN
-F2 "Assembly:OKI-78SR_Vertical" 0 -2125 60 H I C CNN
-F3 "http://power.murata.com/data/power/oki-78sr.pdf" 0 -2225 60 H I C CNN
-F4 "Digikey" 0 -1625 60 H I C CNN "Supplier"
-F5 "811-2196-5-ND" 0 -1725 60 H I C CNN "Supplier Part Number"
-F6 "Murata Power Solutions Inc." 0 -1825 60 H I C CNN "Manufacturer"
-F7 "OKI-78SR-5/1.5-W36H-C" 0 -1925 60 H I C CNN "Manufacturer Part Number"
-F8 "DC/DC CONVERTER 5V 8W" 0 -2025 60 H I C CNN "Description"
-F9 "7V" -10 -915 50 H I C CNN "Voltage - Input (Min)"
-F10 "36V" -10 -995 50 H I C CNN "Voltage - Input (Max)"
-F11 "5V" -10 -1085 50 H I C CNN "Voltage - Output (Min/Fixed)"
-F12 "1.5A" 5 -1300 50 H I C CNN "Current - Output"
+F2 "Assembly:OKI-78SR_Vertical" 10 -1675 60 H I C CNN
+F3 "http://power.murata.com/data/power/oki-78sr.pdf" 10 -1775 60 H I C CNN
+F4 "Digikey" 10 -1175 60 H I C CNN "Supplier"
+F5 "811-2196-5-ND" 10 -1275 60 H I C CNN "Supplier Part Number"
+F6 "Murata Power Solutions Inc." 10 -1375 60 H I C CNN "Manufacturer"
+F7 "OKI-78SR-5/1.5-W36H-C" 10 -1475 60 H I C CNN "Manufacturer Part Number"
+F8 "DC/DC CONVERTER 5V 8W" 10 -1575 60 H I C CNN "Description"
+F9 "7V" 0 -615 50 H I C CNN "Voltage - Input (Min)"
+F10 "36V" 0 -695 50 H I C CNN "Voltage - Input (Max)"
+F11 "5V" 0 -785 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "1.5A" 15 -1000 50 H I C CNN "Current - Output"
 DRAW
 T 0 0 -150 60 0 0 0 GND Normal 0 C C
 T 0 -120 0 60 0 0 0 Vin Normal 0 C C
@@ -358,6 +382,37 @@ F11 "Voltage - Output (Min/Fixed)" 0 -560 50 H I C CNN "Voltage - Output (Min/Fi
 F12 "Voltage - Output (Max)" 0 -650 50 H I C CNN "Voltage - Output (Max)"
 F13 "Tolerance" 0 -800 50 H I C CNN "Tolerance (%)"
 F14 "Current - Output" 0 -730 50 H I C CNN "Current - Output"
+DRAW
+P 2 0 1 0 -50 0 -25 0 N
+P 2 0 1 0 0 -110 0 -50 N
+P 2 0 1 0 0 95 0 50 N
+P 2 0 1 15 55 50 55 20 N
+P 3 0 1 15 55 50 -55 50 -55 80 N
+P 4 0 1 10 -50 -50 50 -50 0 50 -50 -50 f
+X Cathode 1 0 195 100 D 50 50 1 1 I
+X Anode 2 0 -200 100 U 50 50 1 1 I
+X Vref ~ -100 0 50 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TL431AIZT
+#
+DEF TL431AIZT U 0 0 N N 1 F N
+F0 "U" -80 160 60 H V C CNN
+F1 "TL431AIZT" -10 -300 60 H V C CNN
+F2 "F" 10 -1390 60 H I C CNN
+F3 "D" 10 -1490 60 H I C CNN
+F4 "Digikey" 10 -890 60 H I C CNN "Supplier"
+F5 "497-2226-1-ND" 10 -990 60 H I C CNN "Supplier Part Number"
+F6 "STMicroelectronics" 10 -1090 60 H I C CNN "Manufacturer"
+F7 "TL431AIZT" 10 -1190 60 H I C CNN "Manufacturer Part Number"
+F8 "IC VREF SHUNT ADJ TO92-3" 10 -1290 60 H I C CNN "Description"
+F9 "Shunt" 0 -400 50 H I C CNN "Reference Type"
+F10 "Adjustable" 0 -480 50 H I C CNN "Output Type"
+F11 "2.495V" 0 -560 50 H I C CNN "Voltage - Output (Min/Fixed)"
+F12 "36V" 0 -650 50 H I C CNN "Voltage - Output (Max)"
+F13 "±1%" 0 -800 50 H I C CNN "Tolerance (%)"
+F14 "100mA" 0 -730 50 H I C CNN "Current - Output"
 DRAW
 P 2 0 1 0 -50 0 -25 0 N
 P 2 0 1 0 0 -110 0 -50 N
