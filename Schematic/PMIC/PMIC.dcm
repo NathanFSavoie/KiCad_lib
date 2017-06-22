@@ -45,6 +45,11 @@ K Current Monitor Bidirectional
 F http://www.ti.com/lit/ds/symlink/ina219.pdf
 $ENDCMP
 #
+$CMP IR2111PBF
+D IC DRIVER HALF-BRIDGE 8-DIP
+K IC DRIVER HALF-BRIDGE 8-DIP
+$ENDCMP
+#
 $CMP L7805CV
 D IC REG LDO 5V 1.5A TO220AB
 K IC REG LDO 5V 1.5A TO220AB
