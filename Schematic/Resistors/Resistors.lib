@@ -57,6 +57,37 @@ X 3 3 0 -200 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# ERJ-P08F10R0V
+#
+DEF ~ERJ-P08F10R0V R 0 0 N N 1 F N
+F0 "R" 0 100 60 H V C CNN
+F1 "ERJ-P08F10R0V" 50 -300 50 H I C CNN
+F2 "F" 50 -900 30 H I C CNN
+F3 "D" 50 -950 30 H I C CNN
+F4 "Digikey" 50 -400 60 H I C CNN "Supplier"
+F5 "P18938CT-ND" 50 -500 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electronic Components" 50 -600 60 H I C CNN "Manufacturer"
+F7 "ERJ-P08F10R0V" 50 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 10 OHM 1% 2/3W 1206" 50 -800 60 H I C CNN "Description"
+F9 "10 OHM" 0 -80 50 H V C CNN "Resistance (Ohms)"
+F10 "2/3W" 0 -200 50 H I C CNN "Puissance (Watts)"
+F11 "1%" 0 -140 50 H V C CNN "Tolerance (%)"
+$FPLIST
+ R1206
+ R0805
+ R1218
+ R2010
+ R2512
+$ENDFPLIST
+DRAW
+S -150 0 -120 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 1 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # P160KN2-0QA25B10K
 #
 DEF ~P160KN2-0QA25B10K VR 0 0 N N 1 F N
@@ -709,6 +740,30 @@ X 2 2 200 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# RC1206FR-071KL
+#
+DEF ~RC1206FR-071KL R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC1206FR-071KL" 0 -300 50 H I C CNN
+F2 "" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-1.00KFRCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC1206FR-071KL" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 1K OHM 1% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "1K" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±1%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/4W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # RC1206JR-07120RL
 #
 DEF ~RC1206JR-07120RL R 0 0 N N 1 F N
@@ -722,6 +777,54 @@ F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
 F7 "RC1206JR-07120RL" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "RES SMD 120 OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
 F9 "120" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/4W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC1206JR-072K2L
+#
+DEF ~RC1206JR-072K2L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC1206JR-072K2L" 0 -300 50 H I C CNN
+F2 "ETS_Resistors:R1206" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-2.2KERCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC1206JR-072K2L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 2.2K OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "2.2k" 0 -70 50 H V C CNN "Resistance (Ohms)"
+F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
+F11 "1/4W" 0 -140 50 H I C CNN "Puissance (Watts)"
+DRAW
+S -120 0 -150 0 0 1 0 N
+S 150 0 120 0 0 1 0 N
+P 13 0 1 0 -120 0 -100 30 -80 0 -60 -30 -40 0 -20 30 0 0 20 -30 40 0 60 30 80 0 100 -30 120 0 N
+X 1 1 -200 0 50 R 50 50 1 1 P
+X 2 2 200 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# RC1206JR-074R7L
+#
+DEF ~RC1206JR-074R7L R 0 0 N N 1 F N
+F0 "R" 0 80 60 H V C CNN
+F1 "RC1206JR-074R7L" 0 -300 50 H I C CNN
+F2 "" 0 -900 30 H I C CNN
+F3 "http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf" 0 -950 30 H I C CNN
+F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
+F5 "311-4.7ERCT-ND" 0 -500 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" 0 -600 60 H I C CNN "Manufacturer"
+F7 "RC1206JR-074R7L" 0 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "RES SMD 4.7 OHM 5% 1/4W 1206" 0 -800 60 H I C CNN "Description"
+F9 "4.7" 0 -70 50 H V C CNN "Resistance (Ohms)"
 F10 "±5%" 410 -80 50 H I C CNN "Tolerance (%)"
 F11 "1/4W" 0 -140 50 H I C CNN "Puissance (Watts)"
 DRAW

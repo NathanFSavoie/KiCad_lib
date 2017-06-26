@@ -18,6 +18,18 @@ K Fast Blow, Radial, Box
 F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_395_datasheet.pdf.pdf
 $ENDCMP
 #
+$CMP C1Q1
+D FUSE BOARD MOUNT 1A 125VAC 63VDC 1206
+K FUSE BOARD MOUNT 1A 125VAC 63VDC 1206
+F https://belfuse.com/resources/StewartConnector/C1Q.pdf
+$ENDCMP
+#
+$CMP C1Q2
+D FUSE BOARD MOUNT 2A 125VAC 63VDC 1206
+K FUSE BOARD MOUNT 2A 125VAC 63VDC 1206
+F https://belfuse.com/resources/StewartConnector/C1Q.pdf
+$ENDCMP
+#
 $CMP Fuse
 D Fuse SYMBOL
 K SYMBOL

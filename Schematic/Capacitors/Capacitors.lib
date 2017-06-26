@@ -34,6 +34,153 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# C1206C105K4RACTU
+#
+DEF ~C1206C105K4RACTU C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "C1206C105K4RACTU" -50 -350 60 H I C CNN
+F2 "F" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "399-1254-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "KEMET" -50 -650 60 H I C CNN "Manufacturer"
+F7 "C1206C105K4RACTU" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 1UF 16V X7R 1206" -50 -850 60 H I C CNN "Description"
+F9 "1uF" -50 -150 50 H V C CNN "Capacitance (Farad)"
+F10 "10%" 150 -200 50 H I C CNN "Tolerance (%)"
+F11 "16V" -50 -250 50 H V C CNN "Voltage Rated (Volt)"
+$FPLIST
+ C0805
+ C1206
+ C1218
+ C2010
+ C2512
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CC1206KRX7R9BB473
+#
+DEF ~CC1206KRX7R9BB473 C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "CC1206KRX7R9BB473" -50 -350 60 H I C CNN
+F2 "F" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Digikey" -50 -450 60 H I C CNN "Supplier"
+F5 "311-1178-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Yageo" -50 -650 60 H I C CNN "Manufacturer"
+F7 "CC1206KRX7R9BB473" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 0.047UF 50V X7R 1206" -50 -850 60 H I C CNN "Description"
+F9 "47nF" -50 -150 50 H V C CNN "Capacitance (Farad)"
+F10 "10%" 150 -200 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -250 50 H V C CNN "Voltage Rated (Volt)"
+$FPLIST
+ C0805
+ C1206
+ C1218
+ C2010
+ C2512
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_100uF_16V_Pol_Alu_SMD
+#
+DEF ~C_100uF_16V_Pol_Alu_SMD C 0 0 N N 1 F N
+F0 "C" 35 145 60 H V C CNN
+F1 "C_100uF_16V_Pol_Alu_SMD" 0 -340 60 H I C CNN
+F2 "F" 0 -950 60 H I C CNN
+F3 "D" 0 -1050 60 H I C CNN
+F4 "Ebay" 0 -450 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -650 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP ALU SMD 100UF 16V" 0 -850 60 H I C CNN "Description"
+F9 "100uF" 40 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "20%" 290 -120 60 H I C CNN "Tolerance (%)"
+F11 "16V" 40 -210 50 H V C CNN "Voltage Rated (Volt)"
+DRAW
+A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 10 75 75 75 -75 N
+P 2 0 1 0 95 40 145 40 N
+P 2 0 1 0 100 0 75 0 N
+P 2 0 1 0 120 15 120 65 N
+X Positif 1 200 0 100 L 50 50 1 1 P
+X Negatif 2 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_100uF_25V_Pol_Alu_SMD
+#
+DEF ~C_100uF_25V_Pol_Alu_SMD C 0 0 N N 1 F N
+F0 "C" 35 145 60 H V C CNN
+F1 "C_100uF_25V_Pol_Alu_SMD" 0 -340 60 H I C CNN
+F2 "F" 0 -950 60 H I C CNN
+F3 "D" 0 -1050 60 H I C CNN
+F4 "Ebay" 0 -450 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -650 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP ALU SMD 10UF 25V" 0 -850 60 H I C CNN "Description"
+F9 "10uF" 40 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "20%" 290 -120 60 H I C CNN "Tolerance (%)"
+F11 "25V" 40 -210 50 H V C CNN "Voltage Rated (Volt)"
+DRAW
+A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 10 75 75 75 -75 N
+P 2 0 1 0 95 40 145 40 N
+P 2 0 1 0 100 0 75 0 N
+P 2 0 1 0 120 15 120 65 N
+X Positif 1 200 0 100 L 50 50 1 1 P
+X Negatif 2 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C_10uF_25V_Pol_Alu_SMD
+#
+DEF ~C_10uF_25V_Pol_Alu_SMD C 0 0 N N 1 F N
+F0 "C" 35 145 60 H V C CNN
+F1 "C_10uF_25V_Pol_Alu_SMD" 0 -340 60 H I C CNN
+F2 "F" 0 -950 60 H I C CNN
+F3 "D" 0 -1050 60 H I C CNN
+F4 "Ebay" 0 -450 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -650 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP ALU SMD 10UF 25V" 0 -850 60 H I C CNN "Description"
+F9 "10uF" 40 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "20%" 290 -120 60 H I C CNN "Tolerance (%)"
+F11 "25V" 40 -210 50 H V C CNN "Voltage Rated (Volt)"
+DRAW
+A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 10 75 75 75 -75 N
+P 2 0 1 0 95 40 145 40 N
+P 2 0 1 0 100 0 75 0 N
+P 2 0 1 0 120 15 120 65 N
+X Positif 1 200 0 100 L 50 50 1 1 P
+X Negatif 2 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # C_NP_100n_SMD_1206
 #
 DEF ~C_NP_100n_SMD_1206 C 0 0 N N 1 F N
@@ -124,33 +271,6 @@ P 2 0 1 0 0 0 -10 0 N
 P 2 0 1 0 25 0 50 0 N
 X 1 1 -200 0 100 R 50 50 1 1 P
 X 2 2 100 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Capacitor_Generic_Polarised
-#
-DEF ~Capacitor_Generic_Polarised C 0 0 N N 1 F N
-F0 "C" 35 145 60 H V C CNN
-F1 "Capacitor_Generic_Polarised" 0 -340 60 H I C CNN
-F2 "F" 0 -950 60 H I C CNN
-F3 "D" 0 -1050 60 H I C CNN
-F4 "Supplier" 0 -450 60 H I C CNN "Supplier"
-F5 "Supplier Part Number" 0 -550 60 H I C CNN "Supplier Part Number"
-F6 "Manufacturer" 0 -650 60 H I C CNN "Manufacturer"
-F7 "Manufacturer Part Number" 0 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "Description" 0 -850 60 H I C CNN "Description"
-F9 "Capacitance" -160 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "Tolerance" 290 -120 60 H I C CNN "Tolerance (%)"
-F11 "Voltage Rated" 50 -190 50 H V C CNN "Voltage Rated (Volt)"
-DRAW
-A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
-P 2 0 1 0 0 0 25 0 N
-P 2 0 1 10 75 75 75 -75 N
-P 2 0 1 0 95 40 145 40 N
-P 2 0 1 0 100 0 75 0 N
-P 2 0 1 0 120 15 120 65 N
-X Positif 1 200 0 100 L 50 50 1 1 P
-X Negatif 2 -100 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

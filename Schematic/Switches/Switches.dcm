@@ -11,6 +11,12 @@ K SWITCH TACTILE SPST-NO SMD
 F http://www.ckswitches.com/media/1471/pts645.pdf
 $ENDCMP
 #
+$CMP RR511D1121
+D SWITCH ROCKER SPST 20A 125V
+K SWITCH ROCKER SPST 20A 125V
+F https://www.e-switch.com/system/asset/product_line/data_sheet/96/RR5.pdf
+$ENDCMP
+#
 $CMP Tact_switch
 D Tact Switch SYMBOL
 K SYMBOL

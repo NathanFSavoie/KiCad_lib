@@ -57,6 +57,26 @@ X 4 4 200 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# RR511D1121
+#
+DEF ~RR511D1121 SW? 0 0 N N 1 F N
+F0 "SW?" -50 200 60 H V C CNN
+F1 "RR511D1121" 0 -100 60 H I C CNN
+F2 "" 0 -850 60 H I C CNN
+F3 "https://www.e-switch.com/system/asset/product_line/data_sheet/96/RR5.pdf" 0 -950 60 H I C CNN
+F4 "Digikey" -50 -400 60 H I C CNN "Supplier"
+F5 "EG4777-ND" 0 -300 60 H I C CNN "Supplier Part Number"
+F6 "E-Switch" 0 -200 60 H I C CNN "Manufacturer"
+F7 "RR511D1121" 0 -650 60 H I C CNN "Manufacturer Part Number"
+F8 "SWITCH ROCKER SPST 20A 125V" 0 -750 60 H I C CNN "Description"
+DRAW
+C 100 0 0 0 1 0 N
+P 2 0 1 0 -100 0 100 150 N
+X 1 1 -300 0 200 R 50 50 1 1 I
+X 2 2 300 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Tact_switch
 #
 DEF ~Tact_switch SW? 0 0 Y N 1 F N

@@ -12,6 +12,11 @@ K CT-6EP, TRIMMER 10k
 F https://www.nidec-copal-electronics.com/e/catalog/trimmer/ct-6.pdf
 $ENDCMP
 #
+$CMP ERJ-P08F10R0V
+D RES SMD 10 OHM 1% 2/3W 1206
+K RES SMD 10 OHM 1% 2/3W 1206
+$ENDCMP
+#
 $CMP P160KN2-0QA25B10K
 D POT 10K OHM 1/5W LINEAR PANEL MOUNT
 K POT 10K OHM 1/5W LINEAR PANEL MOUNT
@@ -172,10 +177,28 @@ K Thick Film, Moisture Resistant
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf
 $ENDCMP
 #
+$CMP RC1206FR-071KL
+D RES SMD 1K OHM 1% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
 $CMP RC1206JR-07120RL
 D RES SMD 120 OHM 5% 1/4W 1206
 K Thick Film, Moisture Resistant
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-072K2L
+D RES SMD 2.2K OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-074R7L
+D RES SMD 4.7 OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
 $ENDCMP
 #
 $CMP RL2512FK-070R01L

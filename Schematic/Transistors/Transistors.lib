@@ -44,8 +44,8 @@ F3 "http://www.onsemi.com/pub/Collateral/CPH6347-D.PDF" 100 -1000 60 H I C CNN
 F4 "Digikey" 100 -400 60 H I C CNN "Supplier"
 F5 "CPH6347-TL-WOSCT-ND" 100 -500 60 H I C CNN "Supplier Part Number"
 F6 "ON Semiconductor" 100 -600 60 H I C CNN "Manufacturer"
-F7 "MOSFET P-CH 20V 6A CPH6" 100 -700 60 H I C CNN "Manufacturer Part Number"
-F8 "P-Channel 20V 6A (Ta) 1.6W (Ta) Surface Mount 6-CPH" 100 -800 60 H I C CNN "Description"
+F7 "CPH6347-TL-W" 100 -700 60 H I C CNN "Manufacturer Part Number"
+F8 "MOSFET P-CH 20V 6A CPH6" 100 -800 60 H I C CNN "Description"
 DRAW
 P 2 0 1 0 -100 -80 -100 0 N
 P 2 0 1 0 0 0 0 -100 N
@@ -85,7 +85,7 @@ DEF IRF9Z14PBF Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "IRF9Z14PBF" -450 -100 60 H V C CNN
 F2 "ETS_Transistor:TO-220-3_Vertical" 100 -900 60 H I C CNN
-F3 "http://www.infineon.com/dgdl/irfp3077pbf.pdf?fileId=5546d462533600a401535628cd701fee" 100 -1000 60 H I C CNN
+F3 "http://www.vishay.com/docs/91088/91088.pdf" 100 -1000 60 H I C CNN
 F4 "Digikey" 100 -400 60 H I C CNN "Supplier"
 F5 "IRF9Z14PBF-ND" 100 -500 60 H I C CNN "Supplier Part Number"
 F6 "Vishay Siliconix" 100 -600 60 H I C CNN "Manufacturer"
@@ -155,7 +155,7 @@ DEF IRFP3077PBF Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "IRFP3077PBF" -450 -100 60 H V C CNN
 F2 "ETS_Transistor:TO-247_TO-3P_Vertical" 100 -900 60 H I C CNN
-F3 "http://www.infineon.com/dgdl/irfp3077pbf.pdf?fileId=5546d462533600a401535628cd701fee" 100 -1000 60 H I C CNN
+F3 "https://www.infineon.com/dgdl/irfp3077pbf.pdf?fileId=5546d462533600a401535628cd701fee" 100 -1000 60 H I C CNN
 F4 "Digikey" 100 -400 60 H I C CNN "Supplier"
 F5 "IRFP3077PBF-ND" 100 -500 60 H I C CNN "Supplier Part Number"
 F6 "Infineon Technologies" 100 -600 60 H I C CNN "Manufacturer"
@@ -493,6 +493,41 @@ P 4 0 1 0 145 -25 170 20 195 -25 150 -25 F
 X D D 100 300 200 D 50 50 1 1 I
 X G G -200 0 200 R 50 50 1 1 I
 X S S 100 -300 200 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ULN2803ADWR
+#
+DEF ULN2803ADWR Q 0 1 Y Y 1 F N
+F0 "Q" -250 550 60 H V C CNN
+F1 "ULN2803ADWR" 50 -550 60 H V C CNN
+F2 "F" 0 -1250 60 H I C CNN
+F3 "D" 0 -1350 60 H I C CNN
+F4 "Digikey" -50 -700 60 H I C CNN "Supplier"
+F5 "296-15777-1-ND" 0 -850 60 H I C CNN "Supplier Part Number"
+F6 "Texas Instruments" 0 -950 60 H I C CNN "Manufacturer"
+F7 "ULN2803ADWR" -50 -1050 60 H I C CNN "Manufacturer Part Number"
+F8 "TRANS 8NPN DARL 50V 0.5A 18SO" 0 -1150 60 H I C CNN "Description"
+DRAW
+S -300 500 300 -500 0 1 0 N
+X 1B 1 -500 400 200 R 50 50 1 1 I
+X 2B 2 -500 300 200 R 50 50 1 1 I
+X 3B 3 -500 200 200 R 50 50 1 1 I
+X 4B 4 -500 100 200 R 50 50 1 1 I
+X 5B 5 -500 0 200 R 50 50 1 1 I
+X 6B 6 -500 -100 200 R 50 50 1 1 I
+X 7B 7 -500 -200 200 R 50 50 1 1 I
+X 8B 8 -500 -300 200 R 50 50 1 1 I
+X GND 9 -500 -400 200 R 50 50 1 1 I
+X COM 10 500 -400 200 L 50 50 1 1 I
+X 8C 11 500 -300 200 L 50 50 1 1 I
+X 7C 12 500 -200 200 L 50 50 1 1 I
+X 6C 13 500 -100 200 L 50 50 1 1 I
+X 5C 14 500 0 200 L 50 50 1 1 I
+X 4C 15 500 100 200 L 50 50 1 1 I
+X 3C 16 500 200 200 L 50 50 1 1 I
+X 2C 17 500 300 200 L 50 50 1 1 I
+X 1C 18 500 400 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
