@@ -177,8 +177,26 @@ K Thick Film, Moisture Resistant
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf
 $ENDCMP
 #
+$CMP RC1206FR-07100KL
+D RES SMD 100K OHM 1% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf
+$ENDCMP
+#
 $CMP RC1206FR-071KL
 D RES SMD 1K OHM 1% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206FR-074K7L
+D RES SMD 4.7K OHM 1% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-0710KL
+D RES SMD 10K OHM 5% 1/4W 1206
 K Thick Film, Moisture Resistant
 F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
 $ENDCMP
@@ -189,14 +207,74 @@ K Thick Film, Moisture Resistant
 F http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf
 $ENDCMP
 #
+$CMP RC1206JR-071ML
+D RES SMD 1M OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-07220KL
+D RES SMD 220K OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-0722KL
+D RES SMD 22K OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
 $CMP RC1206JR-072K2L
 D RES SMD 2.2K OHM 5% 1/4W 1206
 K Thick Film, Moisture Resistant
 F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
 $ENDCMP
 #
+$CMP RC1206JR-07330KL
+D RES SMD 330K OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-07330RL
+D RES SMD 330 OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-07470KL
+D RES SMD 470K OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-07470RL
+D RES SMD 470 OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-0747KL
+D RES SMD 47K OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
 $CMP RC1206JR-074R7L
 D RES SMD 4.7 OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-076K8L
+D RES SMD 6.8K OHM 5% 1/4W 1206
+K Thick Film, Moisture Resistant
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
+$CMP RC1206JR-078K2L
+D RES SMD 8.2K OHM 5% 1/4W 1206
 K Thick Film, Moisture Resistant
 F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
 $ENDCMP

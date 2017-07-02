@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.3
 DEF 2N7002P,215 Q 0 0 N N 1 F N
 F0 "Q" -150 200 60 H V C CNN
 F1 "2N7002P,215" -350 100 60 H V C CNN
-F2 "IC:SOT-23-3" 150 -900 60 H I C CNN
+F2 "ETS_IC:SOT-23-3" 150 -900 60 H I C CNN
 F3 "http://assets.nexperia.com/documents/data-sheet/2N7002P.pdf" 150 -1000 60 H I C CNN
 F4 "Digikey" 150 -400 60 H I C CNN "Supplier"
 F5 "1727-4692-1-ND" 150 -500 60 H I C CNN "Supplier Part Number"
@@ -119,7 +119,7 @@ ENDDEF
 DEF IRF9Z34NPBF Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "IRF9Z34NPBF" -450 -100 60 H V C CNN
-F2 "IC:TO-220" 100 -900 60 H I C CNN
+F2 "ETS_Transistor:TO-220-3_Vertical" 100 -900 60 H I C CNN
 F3 "http://www.infineon.com/dgdl/irf9z34npbf.pdf?fileId=5546d462533600a40153561220af1ddd" 100 -1000 60 H I C CNN
 F4 "Digikey" 100 -400 60 H I C CNN "Supplier"
 F5 "IRF9Z34NPBF-ND" 100 -500 60 H I C CNN "Supplier Part Number"
@@ -189,7 +189,7 @@ ENDDEF
 DEF IRFZ14PBF Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "IRFZ14PBF" -500 -100 60 H V C CNN
-F2 "F" 150 -900 60 H I C CNN
+F2 "ETS_Transistor:TO-220-3_Vertical" 150 -900 60 H I C CNN
 F3 "D" 150 -1000 60 H I C CNN
 F4 "Digikey" 150 -400 60 H I C CNN "Supplier"
 F5 "IRFZ14PBF-ND" 150 -500 60 H I C CNN "Supplier Part Number"
@@ -222,7 +222,7 @@ ENDDEF
 DEF IRFZ24NPBF Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "IRFZ24NPBF" -350 -100 60 H V C CNN
-F2 "IC:TO-220" 150 -900 60 H I C CNN
+F2 "ETS_Transistor:TO-220-3_Vertical" 150 -900 60 H I C CNN
 F3 "http://www.infineon.com/dgdl/irfz24npbf.pdf?fileId=5546d462533600a40153563af6ce21f7" 150 -1000 60 H I C CNN
 F4 "Digikey" 150 -400 60 H I C CNN "Supplier"
 F5 "IRFZ24NPBF-ND" 150 -500 60 H I C CNN "Supplier Part Number"
@@ -346,7 +346,7 @@ ENDDEF
 DEF P30N06LE Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "P30N06LE" -500 -100 60 H V C CNN
-F2 "F" 150 -900 60 H I C CNN
+F2 "ETS_Transistor:TO-220-3_Vertical" 150 -900 60 H I C CNN
 F3 "D" 150 -1000 60 H I C CNN
 F4 "Sparfun" 150 -400 60 H I C CNN "Supplier"
 F5 "Supplier Part Number" 150 -500 60 H I C CNN "Supplier Part Number"
@@ -468,7 +468,7 @@ ENDDEF
 DEF STW120NF10 Q 0 0 N N 1 F N
 F0 "Q" -100 200 60 H V C CNN
 F1 "STW120NF10" -500 -100 60 H V C CNN
-F2 "F" 150 -900 60 H I C CNN
+F2 "ETS_Transistor:TO-247_TO-3P_Vertical" 150 -900 60 H I C CNN
 F3 "D" 150 -1000 60 H I C CNN
 F4 "Digikey" 150 -400 60 H I C CNN "Supplier"
 F5 "497-5166-5-ND" 150 -500 60 H I C CNN "Supplier Part Number"
@@ -501,7 +501,7 @@ ENDDEF
 DEF ULN2803ADWR Q 0 1 Y Y 1 F N
 F0 "Q" -250 550 60 H V C CNN
 F1 "ULN2803ADWR" 50 -550 60 H V C CNN
-F2 "F" 0 -1250 60 H I C CNN
+F2 "ETS_IC:SOIC-18W_7.5x11.6mm_Pitch1.27mm" 0 -1250 60 H I C CNN
 F3 "D" 0 -1350 60 H I C CNN
 F4 "Digikey" -50 -700 60 H I C CNN "Supplier"
 F5 "296-15777-1-ND" 0 -850 60 H I C CNN "Supplier Part Number"

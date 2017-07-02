@@ -72,6 +72,11 @@ K Linear Regulator Replacement, Horizontal
 F http://power.murata.com/data/power/oki-78sr.pdf
 $ENDCMP
 #
+$CMP ROE-1205S
+D CONV DC/DC 1W 12VIN 05VOUT
+K CONV DC/DC 1W 12VIN 05VOUT
+$ENDCMP
+#
 $CMP Shunt_Regulator_SYMBOL
 D Shunt Regulator SYMBOL
 K SYMBOL
