@@ -195,6 +195,12 @@ K Thick Film, Moisture Resistant
 F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
 $ENDCMP
 #
+$CMP RC1206FR-07680RL
+D RES SMD 680 OHM 1% 1/4W 1206
+K RES SMD 680 OHM 1% 1/4W 1206
+F http://www.yageo.com.tw/exep/pages/download/literatures/PYu-R_INT-thick_7.pdf
+$ENDCMP
+#
 $CMP RC1206JR-0710KL
 D RES SMD 10K OHM 5% 1/4W 1206
 K Thick Film, Moisture Resistant
