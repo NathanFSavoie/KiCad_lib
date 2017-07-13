@@ -67,6 +67,39 @@ X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# C1206C220J5GACTU
+#
+DEF ~C1206C220J5GACTU C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "C1206C220J5GACTU" -50 -350 60 H I C CNN
+F2 "ETS_Capacitors:C1206" -50 -950 60 H I C CNN
+F3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/46/KEM_C1003_C0G_SMD.pdf" -50 -1050 60 H I C CNN
+F4 "DigiKey" -50 -450 60 H I C CNN "Supplier"
+F5 "399-1197-1-ND" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "KEMET" -50 -650 60 H I C CNN "Manufacturer"
+F7 "C1206C220J5GACTU" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP CER 22PF 50V C0G/NP0 1206 LOW ESL" -50 -850 60 H I C CNN "Description"
+F9 "22pF" -60 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "5%" 130 -120 50 H I C CNN "Tolerance (%)"
+F11 "50V" -50 -190 50 H I C CNN "Voltage Rated (Volt)"
+$FPLIST
+ C0805
+ C1206
+ C1218
+ C2010
+ C2512
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # CC1206KRX7R9BB473
 #
 DEF ~CC1206KRX7R9BB473 C 0 0 N N 1 F N
@@ -178,39 +211,6 @@ P 2 0 1 0 100 0 75 0 N
 P 2 0 1 0 120 15 120 65 N
 X Positif 1 200 0 100 L 50 50 1 1 P
 X Negatif 2 -100 0 100 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# C_NP_100n_SMD_1206
-#
-DEF ~C_NP_100n_SMD_1206 C 0 0 N N 1 F N
-F0 "C" -50 160 60 H V C CNN
-F1 "C_NP_100n_SMD_1206" -50 -350 60 H I C CNN
-F2 "F" -50 -950 60 H I C CNN
-F3 "D" -50 -1050 60 H I C CNN
-F4 "Supplier" -50 -450 60 H I C CNN "Supplier"
-F5 "Supplier Part Number" -50 -550 60 H I C CNN "Supplier Part Number"
-F6 "Manufacturer" -50 -650 60 H I C CNN "Manufacturer"
-F7 "Manufacturer Part Number" -50 -750 60 H I C CNN "Manufacturer Part Number"
-F8 "CAP CER 0.1UF 50V X7R 1206" -50 -850 60 H I C CNN "Description"
-F9 "Capacitance" -210 -120 50 H V C CNN "Capacitance (Farad)"
-F10 "Tolerance" 210 -120 50 H I C CNN "Tolerance (%)"
-F11 "Voltage Rated" -50 -190 50 H V C CNN "Voltage Rated (Volt)"
-$FPLIST
- C0805
- C1206
- C1218
- C2010
- C2512
-$ENDFPLIST
-DRAW
-P 2 0 1 0 -100 0 -90 0 N
-P 2 0 1 10 -85 75 -85 -75 N
-P 2 0 1 10 -15 75 -15 -75 N
-P 2 0 1 0 0 0 -10 0 N
-P 2 0 1 0 25 0 50 0 N
-X 1 1 -200 0 100 R 50 50 1 1 P
-X 2 2 100 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
