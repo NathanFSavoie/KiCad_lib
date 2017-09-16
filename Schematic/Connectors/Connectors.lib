@@ -929,7 +929,7 @@ ENDDEF
 DEF ~Test_Point_THM TP 0 0 N N 1 F N
 F0 "TP" 0 100 60 H V C CNN
 F1 "Test_Point_THM" 0 -300 60 H I C CNN
-F2 "Connectors:Keystone_5001" 0 -900 60 H I C CNN
+F2 "ETS_Connectors:Keystone_5001" 0 -900 60 H I C CNN
 F3 "http://keyelco.com/userAssets/file/M65p56.pdf" 0 -1000 60 H I C CNN
 F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
 F5 "36-5001-ND" 0 -500 60 H I C CNN "Supplier Part Number"

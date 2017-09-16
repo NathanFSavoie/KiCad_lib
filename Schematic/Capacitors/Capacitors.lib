@@ -302,4 +302,58 @@ X Negatif 2 -100 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# EEE-1EA100WR
+#
+DEF ~EEE-1EA100WR C 0 0 N N 1 F N
+F0 "C" 35 145 60 H V C CNN
+F1 "EEE-1EA100WR" 0 -340 60 H I C CNN
+F2 "ETS_Capacitors:CP_Elec_4x5.7" 0 -950 60 H I C CNN
+F3 "D" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "PCE3895CT-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Panasonic Electronic Components" 0 -650 60 H I C CNN "Manufacturer"
+F7 "EEE-1EA100WR" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP ALUM 10UF 20% 25V SMD" 0 -850 60 H I C CNN "Description"
+F9 "10uF" 40 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "20%" 290 -120 60 H I C CNN "Tolerance (%)"
+F11 "25V" 40 -210 50 H V C CNN "Voltage Rated (Volt)"
+DRAW
+A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 10 75 75 75 -75 N
+P 2 0 1 0 95 40 145 40 N
+P 2 0 1 0 100 0 75 0 N
+P 2 0 1 0 120 15 120 65 N
+X Positif 1 200 0 100 L 50 50 1 1 P
+X Negatif 2 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# UWX1C101MCL1GB
+#
+DEF ~UWX1C101MCL1GB C 0 0 N N 1 F N
+F0 "C" 35 145 60 H V C CNN
+F1 "UWX1C101MCL1GB" 0 -340 60 H I C CNN
+F2 "ETS_Capacitors:CP_Elec_6.3x5.7" 0 -950 60 H I C CNN
+F3 "D" 0 -1050 60 H I C CNN
+F4 "Digikey" 0 -450 60 H I C CNN "Supplier"
+F5 "493-2105-1-ND" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Nichicon" 0 -650 60 H I C CNN "Manufacturer"
+F7 "UWX1C101MCL1GB" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "CAP ALUM 100UF 20% 16V SMD" 0 -850 60 H I C CNN "Description"
+F9 "100uF" 40 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "20%" 290 -120 60 H I C CNN "Tolerance (%)"
+F11 "16V" 40 -210 50 H V C CNN "Voltage Rated (Volt)"
+DRAW
+A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 10 75 75 75 -75 N
+P 2 0 1 0 95 40 145 40 N
+P 2 0 1 0 100 0 75 0 N
+P 2 0 1 0 120 15 120 65 N
+X Positif 1 200 0 100 L 50 50 1 1 P
+X Negatif 2 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
