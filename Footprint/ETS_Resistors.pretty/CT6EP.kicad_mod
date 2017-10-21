@@ -12,9 +12,9 @@
   (pad 1 thru_hole circle (at -2.54 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 -2.54) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.762) (layers *.Cu *.Mask))
-  (model Resistors/CT-6EP.wrl
-    (at (xyz 0 0 0.228))
-    (scale (xyz 0.3937 0.3937 0.3937))
+  (model "C:/Users/Utilisateur/Documents/GIT/KICAD/KiCad_lib/3D_Model/Resistors/Bourns 3362R_sp.wrl"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

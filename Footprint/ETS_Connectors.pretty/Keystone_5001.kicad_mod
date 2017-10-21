@@ -6,9 +6,9 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad 1 thru_hole rect (at 0 0) (size 4 2) (drill 1.1 (offset 0.7 0)) (layers *.Cu *.Mask))
-  (model Connectors/Test_Point_Keystone_5001_BLACK.wrl
+  (model C:/Users/Utilisateur/Documents/GIT/KICAD/KiCad_lib/3D_Model/Connectors/Pin_Header/Pin_Header_Straight_1x01.wrl
     (at (xyz 0 0 0))
-    (scale (xyz 0.3937 0.3937 0.3937))
+    (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
 )

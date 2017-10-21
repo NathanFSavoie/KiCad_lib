@@ -13,9 +13,9 @@
   (fp_line (start 5 0) (end 5 -4) (layer F.SilkS) (width 0.2032))
   (pad 1 thru_hole circle (at -2.5 0) (size 2.75 2.75) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 2.5 0) (size 2.75 2.75) (drill 1.5) (layers *.Cu *.Mask))
-  (model Connectors/1935161.wrl
-    (at (xyz -1.285 -1.757 -1.53))
-    (scale (xyz 0.3937 0.3937 0.3937))
-    (rotate (xyz -90 0 -90))
+  (model C:/Users/Utilisateur/Documents/GIT/KICAD/KiCad_lib/3D_Model/Connectors/1935161.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90))
   )
 )
