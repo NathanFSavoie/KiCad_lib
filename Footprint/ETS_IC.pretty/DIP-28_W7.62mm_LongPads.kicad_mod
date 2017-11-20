@@ -1,13 +1,13 @@
-(module DIP-28_W7.62mm_LongPads (layer F.Cu) (tedit 58CC8E2F)
+(module DIP-28_W7.62mm_LongPads (layer F.Cu) (tedit 59F659A5)
   (descr "28-lead dip package, row spacing 7.62 mm (300 mils), LongPads")
   (tags "DIL DIP PDIP 2.54mm 7.62mm 300mil LongPads")
   (fp_text reference REF** (at 3.81 -2.39) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value DIP-28_W7.62mm_LongPads (at 3.81 35.41) (layer F.Fab)
+  (fp_text value DIP-28_W7.62mm_LongPads (at 3.81 35.41) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text user %R (at 3.81 16.51) (layer F.Fab)
+  (fp_text user %R (at 3.81 16.51) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1.635 -1.27) (end 6.985 -1.27) (layer F.Fab) (width 0.1))

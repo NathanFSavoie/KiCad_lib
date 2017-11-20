@@ -3,9 +3,9 @@ EESchema-LIBRARY Version 2.3
 #
 # ABLS-8.000MHZ-D-T
 #
-DEF ABLS-8.000MHZ-D-T XTAL 0 0 N N 1 F N
+DEF ~ABLS-8.000MHZ-D-T XTAL 0 0 N N 1 F N
 F0 "XTAL" 0 200 60 H V C CNN
-F1 "ABLS-8.000MHZ-D-T" 0 -200 60 H V C CNN
+F1 "ABLS-8.000MHZ-D-T" 50 -300 60 H I C CNN
 F2 "Crystals:HC49_US" 0 -900 60 H I C CNN
 F3 "http://www.abracon.com/Resonators/abls.pdf" 0 -1000 60 H I C CNN
 F4 "Digikey" 0 -400 60 H I C CNN "Supplier"
@@ -13,6 +13,7 @@ F5 "535-13445-2-ND" 0 -500 60 H I C CNN "Supplier Part Number"
 F6 "Abracon LLC" 0 -600 60 H I C CNN "Manufacturer"
 F7 "ABLS-8.000MHZ-D-T" 0 -700 60 H I C CNN "Manufacturer Part Number"
 F8 "CRYSTAL 8.0000MHZ 18PF SMD" 0 -800 60 H I C CNN "Description"
+F9 "8MHz" 0 -200 60 H V C CNN "Frequency"
 DRAW
 S -40 120 40 -120 1 1 10 f
 P 2 1 1 0 -100 0 -70 0 N

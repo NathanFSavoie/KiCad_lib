@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ATMEGA168A-P
+D IC MCU 8BIT 32KB FLASH 28DIP
+K IC MCU 8BIT 32KB FLASH 28DIP
+F http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf
+$ENDCMP
+#
 $CMP STM32F051K4T6
 D STM32F051K4T6
 K mcu, 32-Bit
