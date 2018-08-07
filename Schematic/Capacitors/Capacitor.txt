@@ -1,0 +1,27 @@
+#
+# Capacitor
+#
+DEF ~Capacitor C 0 0 N N 1 F N
+F0 "C" -50 160 60 H V C CNN
+F1 "Capacitor" -50 -350 60 H I C CNN
+F2 "F" -50 -950 60 H I C CNN
+F3 "D" -50 -1050 60 H I C CNN
+F4 "Supplier" -50 -450 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" -50 -550 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" -50 -650 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" -50 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" -50 -850 60 H I C CNN "Description"
+F9 "Capacitance" -210 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "Tolerance" 210 -120 50 H I C CNN "Tolerance (%)"
+F11 "Voltage Rated" -50 -190 50 H V C CNN "Voltage Rated (Volt)"
+F12 "Ripple Current" -50 -250 50 H I C CNN "Ripple Current (A)"
+DRAW
+P 2 0 1 0 -100 0 -90 0 N
+P 2 0 1 10 -85 75 -85 -75 N
+P 2 0 1 10 -15 75 -15 -75 N
+P 2 0 1 0 0 0 -10 0 N
+P 2 0 1 0 25 0 50 0 N
+X 1 1 -200 0 100 R 50 50 1 1 P
+X 2 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF

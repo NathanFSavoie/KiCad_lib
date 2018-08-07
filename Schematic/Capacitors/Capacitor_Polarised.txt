@@ -1,0 +1,28 @@
+#
+# Capacitor_Polarised
+#
+DEF ~Capacitor_Polarised C 0 0 N N 1 F N
+F0 "C" 35 145 60 H V C CNN
+F1 "Capacitor_Polarised" 0 -340 60 H I C CNN
+F2 "F" 0 -950 60 H I C CNN
+F3 "D" 0 -1050 60 H I C CNN
+F4 "Supplier" 0 -450 60 H I C CNN "Supplier"
+F5 "Supplier Part Number" 0 -550 60 H I C CNN "Supplier Part Number"
+F6 "Manufacturer" 0 -650 60 H I C CNN "Manufacturer"
+F7 "Manufacturer Part Number" 0 -750 60 H I C CNN "Manufacturer Part Number"
+F8 "Description" 0 -850 60 H I C CNN "Description"
+F9 "Capacitance" -160 -120 50 H V C CNN "Capacitance (Farad)"
+F10 "Tolerance" 290 -120 60 H I C CNN "Tolerance (%)"
+F11 "Voltage Rated" 50 -190 50 H V C CNN "Voltage Rated (Volt)"
+F12 "Ripple Current" 0 -250 50 H I C CNN "Ripple Current (A)"
+DRAW
+A -100 0 125 369 -369 0 1 10 N 0 75 0 -75
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 10 75 75 75 -75 N
+P 2 0 1 0 95 40 145 40 N
+P 2 0 1 0 100 0 75 0 N
+P 2 0 1 0 120 15 120 65 N
+X Positif 1 200 0 100 L 50 50 1 1 P
+X Negatif 2 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
