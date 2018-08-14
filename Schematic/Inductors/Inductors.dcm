@@ -50,4 +50,9 @@ K Wirewound
 F http://www.bourns.com/docs/Product-Datasheets/rlb.pdf
 $ENDCMP
 #
+$CMP SRP5020TA-R47M
+D FIXED IND 0.47H 5.7X5.2X1.8MM 20% 11.5A
+K FIXED IND 0.47H 5.7X5.2X1.8MM 20% 11.5A
+$ENDCMP
+#
 #End Doc Library

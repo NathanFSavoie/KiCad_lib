@@ -78,6 +78,11 @@ K Linear Regulator Replacement, Horizontal
 F http://power.murata.com/data/power/oki-78sr.pdf
 $ENDCMP
 #
+$CMP PDQ15-Q24-S5-D
+D DC/DC CONVERTER 5V 15W
+K DC/DC CONVERTER 5V 15W
+$ENDCMP
+#
 $CMP ROE-1205S
 D CONV DC/DC 1W 12VIN 05VOUT
 K CONV DC/DC 1W 12VIN 05VOUT

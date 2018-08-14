@@ -5,4 +5,10 @@ D Optocoupler SYMBOL
 K SYMBOL
 $ENDCMP
 #
+$CMP SI8662AB-B-IS1
+D DGTL ISO 2.5KV GEN PURP 16SOIC
+K DGTL ISO 2.5KV GEN PURP 16SOIC
+F http://www.silabs.com/documents/public/data-sheets/Si86xx.pdf
+$ENDCMP
+#
 #End Doc Library
